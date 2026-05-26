@@ -31,7 +31,10 @@ Create the following files: `.claude/skills/rscore/public/testdata/{GAMENAME}_po
 Referring to the well-architected whitepapers from `.claude/skills/rscore/docs/`, and from any detailed company whitepapers and information you can find online, construct a detailed infrastructure of the application. Use the following information to help you construct as clear and as accurate an infrastructure as possible:
 - For our graph model, there are two types of nodes: functional nodes and provider nodes. Functional nodes are components such as authentication, matchmaking, game servers, DNS, load balancers, etcetera. These are the logical architectural blocks of the application, as well as the networks between them. Provider nodes are cloud services that the functional nodes depend on, such as AWS, GCP, Cloudflare, etcetera.
 - This graph is a directed graph. There are two types of edges: dependency edges and hosted-on edges. Hosted-on edges are specifically edges from functional to provider nodes. All other edges are considered dependency edges.
-- For the provider nodes, you must check `.claude/skills/rscore/references/providers.csv`. If they use services that exist in that CSV file, then you must make sure the names match exactly as the name in the CSV file. If the service doesn't already exist in the CSV file, then you can just name it whatever it is.
+- For the provider nodes, you must check `.claude/skills/rscore/references/providers.csv`. If they use services that exist in that CSV file, then you must make sure the names match exactly as the name in the CSV file. In particular, the node's "Node" column should be the exact same as the providers.csv "Provider" column (e.g. AWS Compute) and the node's "Service Tier" column should match exactly the providers.csv "Service/Tier" column (e.g. EC2 T-class (Burstable standard)).
+  - If you are unsure about the Service Tier, make your best educated guess on what tier the company would use.
+  - Please make sure the names match exactly. The rscore tool does a string match, so this is very important.
+  - If the service doesn't already exist in the CSV file, then you can just name it whatever it is.
 - This should be a relatively detailed infrastructure, with ideally 60-80 nodes and enough edges to make sense.
 - Finally, you should write all this information in the files you made earlier.
 
@@ -69,7 +72,7 @@ First, using the documentation you loaded in step 1, give a summary of the appli
 
 Then, explain what major degradations you made in step 4, and why it should perform worse than the infrastructure in step 3.
 
-Finally, report the results from `.claude/skills/rscore/public/testresults/{GAMENAME}_score.txt`. Say whether it matches expectations ("pre" score is worse than "post" score), and explain why or why not it may have turned out this way.
+Finally, report the results from `.claude/skills/rscore/public/testresults/{GAMENAME}_score.txt`. Say whether it matches expectations ("pre" score is worse than "post" score), and explain why or why not it may have turned out this way. Make sure to save this report to `.claude/skills/rscore/public/testresults/{GAMENAME}Report.md`.
 
 ## 7. Edge Cases
 

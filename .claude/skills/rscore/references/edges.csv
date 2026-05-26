@@ -1,0 +1,27 @@
+Type,From,To
+Dependency,RiotSignOn,Riot Direct
+Dependency,rCluster,Riot Direct
+Dependency,Matchmaking,Riot Direct
+Dependency,Player Profile,Riot Direct
+Dependency,Loot Service,Riot Direct
+Dependency,Riot Messaging Service,Riot Direct
+Dependency,OpenContrail SDN,Riot Direct
+Hosted-on,Riot Direct,Riot-owned provider
+Hosted-on,RiotSignOn,AWS Region 1
+Hosted-on,RiotSignOn,AWS Region 2
+Hosted-on,RiotSignOn,AWS Region 3
+Hosted-on,RiotSignOn,AWS Region 4
+Dependency,rCluster,RiotSignOn
+Dependency,Matchmaking,RiotSignOn
+Dependency,Player Profile,RiotSignOn
+Dependency,Loot Service,RiotSignOn
+Dependency,Riot Messaging Service,RiotSignOn
+Dependency,OpenContrail SDN,RiotSignOn
+Hosted-on,rCluster,Riot-owned provider
+Dependency,rCluster,Matchmaking
+Dependency,Player Profile,rCluster
+Hosted-on,Matchmaking,Riot-owned provider
+Dependency,Matchmaking,Riot Messaging Service
+Dependency,Matchmaking,Player Profile
+Dependency,Loot Service,Player Profile
+Dependency,Loot Service,Matchmaking

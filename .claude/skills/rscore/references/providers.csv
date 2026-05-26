@@ -1,0 +1,80 @@
+Provider,Service/Tier,Score,Rationale
+AWS Compute,EC2 T-class (Burstable standard),0.30,CPU credits can be exhausted; no SLA above 99.5% for single instance
+AWS Compute,EC2 T-class (Unlimited),0.40,Removes credit cap but still single-instance burstable architecture
+AWS Compute,EC2 M/C/R class (single AZ),0.55,Predictable performance no burst risk but single point of failure
+AWS Compute,EC2 Auto Scaling Group (multi-AZ),0.75,Horizontal scaling + AZ redundancy
+AWS Compute,ECS/EKS (Fargate multi-AZ),0.78,Managed orchestration no node management multi-AZ native
+AWS Compute,ECS/EKS (EC2-backed multi-AZ),0.72,More control but more operational burden
+AWS Compute,AWS Lambda,0.70,Inherently stateless and distributed; cold starts are the main risk
+AWS Compute,AWS App Runner,0.65,Managed auto-scaling but less control than EKS
+AWS Database,RDS Single-AZ (any engine),0.40,Single point of failure; failover is manual or slow
+AWS Database,RDS Multi-AZ (Standby),0.65,Automatic failover ~60-120s; synchronous replication
+AWS Database,RDS Multi-AZ Cluster (2 readable standbys),0.75,Faster failover (~35s) read scaling included
+AWS Database,Aurora Serverless v1,0.55,Auto-scaling but cold start latency and less predictable
+AWS Database,Aurora Serverless v2,0.70,Near-instant scaling good for variable loads
+AWS Database,Aurora (Provisioned single region),0.78,Fast failover (~30s) 6-way replication high throughput
+AWS Database,Aurora Global Database,0.90,Cross-region replication RTO < 1min for regional failure
+AWS Database,DynamoDB (On-Demand),0.80,Serverless no capacity planning 99.99% SLA
+AWS Database,DynamoDB Global Tables,0.93,Multi-region active-active extremely high availability
+AWS Database,ElastiCache (single node),0.35,In-memory no persistence by default single point of failure
+AWS Database,ElastiCache (cluster mode),0.70,Sharding + replicas automatic failover
+AWS Networking & Edge,Application Load Balancer,0.80,Managed multi-AZ 99.99% SLA
+AWS Networking & Edge,Network Load Balancer,0.82,Same SLA lower latency handles volatile traffic better
+AWS Networking & Edge,API Gateway (Regional),0.72,Managed scales automatically no multi-region by default
+AWS Networking & Edge,API Gateway (Edge-optimized via CloudFront),0.80,CloudFront adds global edge distribution
+AWS Networking & Edge,CloudFront CDN,0.85,Global PoPs DDoS protection high cache hit rate
+AWS Networking & Edge,AWS Global Accelerator,0.87,Anycast routing automatic failover across regions
+AWS Networking & Edge,Route 53 (Standard),0.82,100% SLA latency/health-based routing
+AWS Networking & Edge,VPC NAT Gateway (single AZ),0.50,Single AZ = availability risk for outbound traffic
+AWS Networking & Edge,VPC NAT Gateway (per-AZ),0.78,Removes cross-AZ dependency
+AWS Messaging & Queuing,SQS Standard,0.78,At-least-once delivery nearly unlimited throughput
+AWS Messaging & Queuing,SQS FIFO,0.75,Exactly-once ordering guarantees lower throughput ceiling
+AWS Messaging & Queuing,SNS,0.78,Managed pub/sub multi-protocol
+AWS Messaging & Queuing,EventBridge,0.80,Event bus with schema registry and archive/replay
+AWS Messaging & Queuing,Kinesis (1 shard),0.55,Single shard is a throughput bottleneck
+AWS Messaging & Queuing,Kinesis (multi-shard enhanced fanout),0.75,Parallelism and low-latency consumer support
+AWS Messaging & Queuing,MSK (Managed Kafka single-AZ),0.55,Kafka overhead + single-AZ risk
+AWS Messaging & Queuing,MSK (Managed Kafka multi-AZ),0.75,Production-grade Kafka with managed operations
+Cloudflare,Free (DNS + proxy),0.55,DDoS protection included but no SLA and limited control
+Cloudflare,Pro,0.65,WAF faster support but still limited SLA
+Cloudflare,Business,0.75,100% uptime SLA custom WAF rules
+Cloudflare,Enterprise,0.88,Full SLA dedicated support advanced security Argo routing
+Cloudflare,Workers (edge compute),0.82,0ms cold start global fault-isolated per-PoP
+Cloudflare,R2,0.75,S3-compatible no egress fees replicated
+Cloudflare,Zero Trust (Access/Tunnel),0.80,No public IP exposure identity-aware proxy
+Azure,VM (single instance),0.50,99.9% SLA with premium storage
+Azure,VM (Availability Set),0.68,Fault/update domain separation
+Azure,VM (Availability Zone),0.75,Physical zone separation 99.99% SLA
+Azure,App Service (Basic),0.50,No SLA tier no auto-scale
+Azure,App Service (Standard+),0.68,Auto-scale 99.95% SLA
+Azure,Kubernetes Service (AKS),0.75,Managed control plane zone-redundant node pools
+Azure,SQL (General Purpose),0.65,99.99% SLA single region
+Azure,SQL (Business Critical),0.80,4-node Always On cluster built-in read replica
+Azure,SQL Hyperscale,0.78,Rapid scale-out reads distributed architecture
+Azure,Cosmos DB (single region),0.78,Managed NoSQL multi-model
+Azure,Cosmos DB (multi-region writes),0.92,Active-active multi-region tunable consistency
+GCP,GCE VM (single zone),0.50,Standard single-zone risk
+GCP,GCE Managed Instance Group (multi-zone),0.75,Auto-healing load-balanced multi-zone
+GCP,Cloud Run,0.78,Serverless containers fast scale per-region
+GCP,GKE Standard (multi-zone),0.75,Managed Kubernetes strong ecosystem
+GCP,GKE Autopilot,0.78,Fully managed nodes security hardened by default
+GCP,Cloud SQL (single zone),0.45,No HA by default
+GCP,Cloud SQL (HA),0.68,Synchronous standby automatic failover
+GCP,Cloud Spanner,0.92,Globally distributed strong consistency 99.999% SLA
+GCP,Firestore,0.82,Multi-region serverless NoSQL
+GCP,Cloud Pub/Sub,0.82,Global replicated at-least-once delivery
+MongoDB Atlas,M10/M20 (single region),0.55,Small dedicated clusters no redundancy
+MongoDB Atlas,M30+ replica set,0.72,3-node replica set automatic failover
+MongoDB Atlas,Global Clusters,0.88,Zone-sharded multi-region reads/writes
+PlanetScale,Scaler,0.75,Vitess-based branching non-blocking schema changes
+Supabase,Pro,0.62,Managed Postgres good DX but single-region
+Vercel,Hobby,0.50,No SLA shared infrastructure
+Vercel,Pro/Enterprise,0.72,Edge network preview deployments SLA on Enterprise
+Fastly,CDN,0.83,High-performance edge strong SLA instant purge
+Akamai,CDN,0.85,Largest CDN footprint enterprise-grade SLA
+Twilio,Messaging/Voice,0.72,99.95% SLA redundant carriers
+SendGrid/Mailgun,Managed Email,0.65,Managed email delivery IP reputation dependent
+Auth0,B2C,0.72,Managed identity 99.9% SLA
+Auth0,Enterprise/Private Cloud,0.85,Dedicated infrastructure higher SLA
+Stripe,Payment Processing,0.88,99.9999% historical uptime redundant processing
+PagerDuty,Incident Management,0.80,Multi-region high availability

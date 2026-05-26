@@ -1,0 +1,50 @@
+Node,Type, Service Tier
+League Client,Functional,
+Riot Direct,Functional,
+RiotSignOn,Functional,
+DNS Service,Functional,
+CDN Service,Functional,
+Game Patcher,Functional,
+Matchmaking Service,Functional,
+Game Server Orchestrator,Functional,
+Game Server NA,Functional,
+Game Server EUW,Functional,
+Chat Service,Functional,
+Riot Messaging Service,Functional,
+Player Profile Service,Functional,
+Loot Service,Functional,
+Store Service,Functional,
+Inventory Service,Functional,
+Leaderboard Service,Functional,
+Statistics Service,Functional,
+Replay Service,Functional,
+Spectator Service,Functional,
+Social Graph Service,Functional,
+Notification Service,Functional,
+Asset Storage,Functional,
+Game Data Service,Functional,
+Mastery Service,Functional,
+Champion Service,Functional,
+Analytics Service,Functional,
+Monitoring Service,Functional,
+API Gateway,Functional,
+Cache Layer,Functional,
+Session Store,Functional,
+Summoner Service,Functional,
+Event Service,Functional,
+Logging Service,Functional,
+Ranked Service,Functional,
+Payment Service,Functional,
+Chat Persistence Store,Functional,
+Player Support Service,Functional,
+AWS Compute,Provider, ECS/EKS (EC2-backed multi-AZ)
+AWS Database,Provider, Aurora (Provisioned single region)
+AWS ElastiCache,Provider, ElastiCache (single node)
+AWS DynamoDB,Provider, DynamoDB (On-Demand)
+AWS Networking & Edge,Provider, Application Load Balancer
+AWS CloudFront,Provider, CloudFront CDN
+AWS Messaging & Queuing,Provider, Kinesis (1 shard)
+Cloudflare,Provider, Pro
+Riot Network,Provider,
+AWS S3,Provider,
+Custom DNS,Provider,

@@ -1,0 +1,177 @@
+Type,From,To
+Dependency,League Client,Riot Direct
+Dependency,League Client,RiotSignOn
+Dependency,League Client,CDN Service
+Dependency,League Client,Anti-cheat Service
+Dependency,Riot Direct,DNS Service
+Dependency,Riot Direct,API Gateway
+Dependency,RiotSignOn,Player Profile Service
+Dependency,RiotSignOn,Session Store
+Dependency,RiotSignOn,Auth Token Cache
+Dependency,API Gateway,RiotSignOn
+Dependency,API Gateway,Matchmaking Service
+Dependency,API Gateway,Player Profile Service
+Dependency,API Gateway,Loot Service
+Dependency,API Gateway,Store Service
+Dependency,API Gateway,Social Graph Service
+Dependency,API Gateway,Notification Service
+Dependency,API Gateway,Leaderboard Service
+Dependency,API Gateway,Statistics Service
+Dependency,API Gateway,Replay Service
+Dependency,API Gateway,Spectator Service
+Dependency,API Gateway,Summoner Service
+Dependency,Matchmaking Service,Player Profile Service
+Dependency,Matchmaking Service,Game Server Orchestrator
+Dependency,Matchmaking Service,Ranked Service
+Dependency,Matchmaking Service,Riot Messaging Service
+Dependency,Matchmaking Service,Champion Select Service
+Dependency,Matchmaking Service,Cache Layer
+Dependency,Champion Select Service,Riot Messaging Service
+Dependency,Champion Select Service,Game Server Orchestrator
+Dependency,Game Server Orchestrator,Game Server NA
+Dependency,Game Server Orchestrator,Game Server EUW
+Dependency,Game Server Orchestrator,Game Server APAC
+Dependency,Game Server Orchestrator,Anti-cheat Service
+Dependency,Game Server Orchestrator,Container Orchestration
+Dependency,Game Server NA,Riot Messaging Service
+Dependency,Game Server NA,Statistics Service
+Dependency,Game Server NA,Logging Service
+Dependency,Game Server NA,Anti-cheat Service
+Dependency,Game Server EUW,Riot Messaging Service
+Dependency,Game Server EUW,Statistics Service
+Dependency,Game Server EUW,Logging Service
+Dependency,Game Server EUW,Anti-cheat Service
+Dependency,Game Server APAC,Riot Messaging Service
+Dependency,Game Server APAC,Statistics Service
+Dependency,Game Server APAC,Logging Service
+Dependency,Game Server APAC,Anti-cheat Service
+Dependency,Chat Service,Social Graph Service
+Dependency,Chat Service,Riot Messaging Service
+Dependency,Chat Service,Chat Persistence Store
+Dependency,Chat Service,Notification Service
+Dependency,Riot Messaging Service,Notification Service
+Dependency,Player Profile Service,Cache Layer
+Dependency,Player Profile Service,Summoner Service
+Dependency,Player Profile Service,Mastery Service
+Dependency,Player Profile Service,Ranked Service
+Dependency,Loot Service,Cache Layer
+Dependency,Loot Service,Inventory Service
+Dependency,Loot Service,Player Profile Service
+Dependency,Store Service,Payment Service
+Dependency,Store Service,Inventory Service
+Dependency,Inventory Service,Cache Layer
+Dependency,Social Graph Service,Cache Layer
+Dependency,Social Graph Service,Notification Service
+Dependency,Leaderboard Service,Cache Layer
+Dependency,Leaderboard Service,Statistics Service
+Dependency,Statistics Service,Data Pipeline
+Dependency,Data Pipeline,Analytics Service
+Dependency,Analytics Service,Logging Service
+Dependency,Monitoring Service,Logging Service
+Dependency,Monitoring Service,Event Service
+Dependency,Event Service,Data Pipeline
+Dependency,Replay Service,Asset Storage
+Dependency,Spectator Service,Game Server NA
+Dependency,Spectator Service,Game Server EUW
+Dependency,Spectator Service,Game Server APAC
+Dependency,Game Patcher,CDN Service
+Dependency,Game Patcher,Asset Storage
+Dependency,Asset Storage,CDN Service
+Dependency,Game Data Service,Asset Storage
+Dependency,Champion Service,Game Data Service
+Dependency,Mastery Service,Cache Layer
+Dependency,Configuration Service,Feature Flag Service
+Dependency,Player Behavior Service,Player Profile Service
+Dependency,Player Behavior Service,Chat Service
+Dependency,Tournament Service,Matchmaking Service
+Dependency,Tournament Service,Ranked Service
+Dependency,Clan Service,Social Graph Service
+Dependency,Clan Service,Riot Messaging Service
+Dependency,Achievement Service,Player Profile Service
+Dependency,Achievement Service,Mastery Service
+Dependency,Achievement Service,Event Service
+Dependency,Player Support Service,Player Profile Service
+Dependency,Session Store,Cache Layer
+Dependency,Auth Token Cache,Cache Layer
+Dependency,Monitoring Service,Configuration Service
+Dependency,VPN Gateway,Riot Direct
+Dependency,Container Orchestration,Game Server Orchestrator
+Hosted-on,Riot Direct,Riot Network
+Hosted-on,Riot Direct,AWS Networking & Edge
+Hosted-on,RiotSignOn,AWS Compute
+Hosted-on,RiotSignOn,AWS ALB
+Hosted-on,DNS Service,AWS Route 53
+Hosted-on,CDN Service,AWS CloudFront
+Hosted-on,CDN Service,Cloudflare
+Hosted-on,API Gateway,AWS API Gateway
+Hosted-on,Matchmaking Service,AWS Compute
+Hosted-on,Game Server Orchestrator,AWS Compute
+Hosted-on,Game Server NA,AWS Compute
+Hosted-on,Game Server EUW,AWS Compute
+Hosted-on,Game Server APAC,AWS Compute
+Hosted-on,Game Server NA,AWS Outposts
+Hosted-on,Game Server EUW,AWS Outposts
+Hosted-on,Game Server APAC,AWS Outposts
+Hosted-on,Chat Service,AWS Compute
+Hosted-on,Riot Messaging Service,AWS Compute
+Hosted-on,Player Profile Service,AWS Compute
+Hosted-on,Player Profile Service,AWS Database
+Hosted-on,Loot Service,AWS Compute
+Hosted-on,Loot Service,AWS ElastiCache
+Hosted-on,Store Service,AWS Compute
+Hosted-on,Store Service,AWS Database
+Hosted-on,Inventory Service,AWS Compute
+Hosted-on,Inventory Service,AWS DynamoDB
+Hosted-on,Social Graph Service,AWS Compute
+Hosted-on,Social Graph Service,AWS DynamoDB
+Hosted-on,Anti-cheat Service,AWS Compute
+Hosted-on,Leaderboard Service,AWS Compute
+Hosted-on,Leaderboard Service,AWS ElastiCache
+Hosted-on,Statistics Service,AWS Compute
+Hosted-on,Statistics Service,AWS Kinesis
+Hosted-on,Replay Service,AWS S3
+Hosted-on,Replay Service,AWS Compute
+Hosted-on,Spectator Service,AWS Compute
+Hosted-on,Asset Storage,AWS S3
+Hosted-on,Game Data Service,AWS Compute
+Hosted-on,Mastery Service,AWS Compute
+Hosted-on,Mastery Service,AWS DynamoDB
+Hosted-on,Champion Service,AWS Compute
+Hosted-on,Champion Service,AWS DynamoDB
+Hosted-on,Analytics Service,AWS Compute
+Hosted-on,Analytics Service,AWS Kinesis
+Hosted-on,Data Pipeline,AWS Compute
+Hosted-on,Data Pipeline,AWS Messaging & Queuing
+Hosted-on,Monitoring Service,AWS Compute
+Hosted-on,Logging Service,AWS Compute
+Hosted-on,Logging Service,AWS S3
+Hosted-on,Event Service,AWS SQS
+Hosted-on,Cache Layer,AWS ElastiCache
+Hosted-on,Session Store,AWS ElastiCache
+Hosted-on,Auth Token Cache,AWS ElastiCache
+Hosted-on,Configuration Service,AWS Compute
+Hosted-on,Feature Flag Service,AWS Compute
+Hosted-on,Summoner Service,AWS Compute
+Hosted-on,Summoner Service,AWS Database
+Hosted-on,Container Orchestration,AWS Compute
+Hosted-on,Player Behavior Service,AWS Compute
+Hosted-on,Player Behavior Service,AWS SQS
+Hosted-on,Ranked Service,AWS Compute
+Hosted-on,Ranked Service,AWS Database
+Hosted-on,Payment Service,AWS Compute
+Hosted-on,Tournament Service,AWS Compute
+Hosted-on,Champion Select Service,AWS Compute
+Hosted-on,Notification Service,AWS Compute
+Hosted-on,Notification Service,AWS SQS
+Hosted-on,Game Patcher,AWS Compute
+Hosted-on,Chat Persistence Store,AWS Database
+Hosted-on,VPN Gateway,Riot Network
+Hosted-on,Matchmaking Service,AWS DynamoDB
+Hosted-on,Achievement Service,AWS Compute
+Hosted-on,Achievement Service,AWS DynamoDB
+Hosted-on,Clan Service,AWS Compute
+Hosted-on,Clan Service,AWS DynamoDB
+Hosted-on,Player Support Service,AWS Compute
+Hosted-on,Player Support Service,AWS Database
+Hosted-on,Chat Service,AWS ElastiCache
+Hosted-on,Notification Service,AWS Messaging & Queuing

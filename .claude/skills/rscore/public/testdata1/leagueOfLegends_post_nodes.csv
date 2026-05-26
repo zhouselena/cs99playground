@@ -1,0 +1,73 @@
+Node,Type, Service Tier
+Riot Direct,Functional,
+DNS Router,Functional,
+Global Load Balancer,Functional,
+DDoS Protection Layer,Functional,
+WAF,Functional,
+Edge Proxy,Functional,
+API Gateway,Functional,
+RiotSignOn,Functional,
+Token Validation Service,Functional,
+OpenContrail SDN,Functional,
+Service Mesh,Functional,
+Secrets Management,Functional,
+rCluster,Functional,
+Matchmaking Service,Functional,
+Queue Manager,Functional,
+Lobby Service,Functional,
+Champion Select Service,Functional,
+Game Server Manager,Functional,
+Game Server NA,Functional,
+Game Server EUW,Functional,
+Game Server EUNE,Functional,
+Game Server KR,Functional,
+Game Server BR,Functional,
+Spectator Service,Functional,
+Replay Service,Functional,
+Chat Service,Functional,
+Presence Service,Functional,
+Friends Service,Functional,
+Riot Messaging Service,Functional,
+Notification Service,Functional,
+Player Profile Service,Functional,
+Stats Service,Functional,
+Ranked Service,Functional,
+Match History Service,Functional,
+End of Game Service,Functional,
+Clash Service,Functional,
+Store Service,Functional,
+Loot Service,Functional,
+Payment Service,Functional,
+Transaction Service,Functional,
+Patch Distribution Service,Functional,
+Static Data Service,Functional,
+Configuration Service,Functional,
+Feature Flags Service,Functional,
+Anti-Cheat Backend,Functional,
+Crash Reporting Service,Functional,
+Player Database Primary,Functional,
+Player Database Replica,Functional,
+Match History Database,Functional,
+Loot Database,Functional,
+Cache Layer,Functional,
+Message Queue,Functional,
+Monitoring Service,Functional,
+Log Aggregation,Functional,
+Telemetry Service,Functional,
+Alerting Service,Functional,
+A/B Testing Service,Functional,
+Riot-owned Data Center,Provider, Riot-owned Tier 1
+AWS ECS NA,Provider, ECS/EKS (Fargate multi-AZ)
+AWS ECS EU,Provider, ECS/EKS (Fargate multi-AZ)
+AWS ECS APAC,Provider, ECS/EKS (Fargate multi-AZ)
+Aurora Global DB,Provider, Aurora Global Database
+DynamoDB Global,Provider, DynamoDB Global Tables
+ElastiCache Cluster,Provider, ElastiCache (cluster mode)
+AWS ALB,Provider, Application Load Balancer
+AWS Global Accelerator,Provider, AWS Global Accelerator
+Route 53,Provider, Route 53 (Standard)
+CloudFront,Provider, CloudFront CDN
+MSK Kafka,Provider, MSK (Managed Kafka multi-AZ)
+SQS,Provider, SQS Standard
+Akamai CDN,Provider, CDN
+Cloudflare Enterprise,Provider, Enterprise

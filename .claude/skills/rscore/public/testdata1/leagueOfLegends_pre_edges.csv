@@ -1,0 +1,103 @@
+Type,From,To
+Hosted-on,Riot Direct,Riot-owned Data Center
+Hosted-on,DNS Router,Route 53
+Hosted-on,Global Load Balancer,AWS ALB
+Hosted-on,DDoS Protection Layer,Cloudflare Business
+Hosted-on,WAF,Cloudflare Business
+Hosted-on,Edge Proxy,Cloudflare Business
+Hosted-on,API Gateway,AWS EC2 NA
+Hosted-on,RiotSignOn,AWS EC2 NA
+Hosted-on,OpenContrail SDN,Riot-owned Data Center
+Hosted-on,rCluster,Riot-owned Data Center
+Hosted-on,Matchmaking Service,Riot-owned Data Center
+Hosted-on,Queue Manager,Riot-owned Data Center
+Hosted-on,Lobby Service,Riot-owned Data Center
+Hosted-on,Champion Select Service,Riot-owned Data Center
+Hosted-on,Game Server Manager,Riot-owned Data Center
+Hosted-on,Game Server NA,Riot-owned Data Center
+Hosted-on,Spectator Service,Riot-owned Data Center
+Hosted-on,Chat Service,AWS EC2 NA
+Hosted-on,Presence Service,AWS EC2 NA
+Hosted-on,Friends Service,AWS EC2 NA
+Hosted-on,Riot Messaging Service,AWS EC2 NA
+Hosted-on,Notification Service,AWS EC2 NA
+Hosted-on,Player Profile Service,AWS EC2 NA
+Hosted-on,Stats Service,AWS EC2 NA
+Hosted-on,Ranked Service,AWS EC2 NA
+Hosted-on,Match History Service,AWS EC2 NA
+Hosted-on,End of Game Service,AWS EC2 NA
+Hosted-on,Store Service,AWS EC2 NA
+Hosted-on,Loot Service,AWS EC2 NA
+Hosted-on,Payment Service,AWS EC2 NA
+Hosted-on,Transaction Service,AWS EC2 NA
+Hosted-on,Patch Distribution Service,Akamai CDN
+Hosted-on,Static Data Service,AWS EC2 NA
+Hosted-on,Configuration Service,AWS EC2 NA
+Hosted-on,Anti-Cheat Backend,AWS EC2 NA
+Hosted-on,Player Database Primary,Aurora Single Region
+Hosted-on,Match History Database,DynamoDB On-Demand
+Hosted-on,Loot Database,DynamoDB On-Demand
+Hosted-on,Cache Layer,ElastiCache Single
+Hosted-on,Message Queue,MSK Kafka Single AZ
+Hosted-on,Monitoring Service,AWS EC2 NA
+Hosted-on,Log Aggregation,AWS EC2 NA
+Dependency,DNS Router,Riot Direct
+Dependency,DNS Router,Global Load Balancer
+Dependency,Global Load Balancer,DDoS Protection Layer
+Dependency,DDoS Protection Layer,WAF
+Dependency,WAF,Edge Proxy
+Dependency,Edge Proxy,API Gateway
+Dependency,Edge Proxy,Riot Direct
+Dependency,API Gateway,RiotSignOn
+Dependency,Riot Direct,Game Server Manager
+Dependency,Riot Direct,Matchmaking Service
+Dependency,Matchmaking Service,Queue Manager
+Dependency,Queue Manager,Lobby Service
+Dependency,Lobby Service,Champion Select Service
+Dependency,Champion Select Service,Game Server Manager
+Dependency,Game Server Manager,Game Server NA
+Dependency,Game Server NA,Player Profile Service
+Dependency,Game Server NA,Anti-Cheat Backend
+Dependency,Game Server NA,Spectator Service
+Dependency,Game Server NA,End of Game Service
+Dependency,Matchmaking Service,Player Profile Service
+Dependency,Matchmaking Service,Ranked Service
+Dependency,Matchmaking Service,RiotSignOn
+Dependency,Matchmaking Service,Riot Messaging Service
+Dependency,API Gateway,Chat Service
+Dependency,API Gateway,Presence Service
+Dependency,API Gateway,Friends Service
+Dependency,API Gateway,Store Service
+Dependency,API Gateway,Loot Service
+Dependency,API Gateway,Patch Distribution Service
+Dependency,API Gateway,Static Data Service
+Dependency,Chat Service,Riot Messaging Service
+Dependency,Presence Service,Riot Messaging Service
+Dependency,Friends Service,Player Profile Service
+Dependency,Riot Messaging Service,Notification Service
+Dependency,Riot Messaging Service,Message Queue
+Dependency,Player Profile Service,Player Database Primary
+Dependency,Player Profile Service,Cache Layer
+Dependency,Stats Service,Player Database Primary
+Dependency,Stats Service,Match History Database
+Dependency,Ranked Service,Player Database Primary
+Dependency,Ranked Service,Cache Layer
+Dependency,Match History Service,Match History Database
+Dependency,Match History Service,Cache Layer
+Dependency,Match History Service,Stats Service
+Dependency,End of Game Service,Stats Service
+Dependency,End of Game Service,Ranked Service
+Dependency,End of Game Service,Match History Service
+Dependency,End of Game Service,Player Profile Service
+Dependency,End of Game Service,Loot Service
+Dependency,End of Game Service,Notification Service
+Dependency,End of Game Service,Message Queue
+Dependency,Store Service,Payment Service
+Dependency,Payment Service,Transaction Service
+Dependency,Transaction Service,Player Database Primary
+Dependency,Loot Service,Loot Database
+Dependency,Loot Service,Player Profile Service
+Dependency,rCluster,OpenContrail SDN
+Dependency,Static Data Service,Configuration Service
+Dependency,Log Aggregation,Monitoring Service
+Dependency,Anti-Cheat Backend,Log Aggregation

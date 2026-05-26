@@ -1,0 +1,53 @@
+Node,Type, Service Tier
+Riot Direct,Functional,
+DNS Router,Functional,
+Global Load Balancer,Functional,
+DDoS Protection Layer,Functional,
+WAF,Functional,
+Edge Proxy,Functional,
+API Gateway,Functional,
+RiotSignOn,Functional,
+OpenContrail SDN,Functional,
+rCluster,Functional,
+Matchmaking Service,Functional,
+Queue Manager,Functional,
+Lobby Service,Functional,
+Champion Select Service,Functional,
+Game Server Manager,Functional,
+Game Server NA,Functional,
+Spectator Service,Functional,
+Chat Service,Functional,
+Presence Service,Functional,
+Friends Service,Functional,
+Riot Messaging Service,Functional,
+Notification Service,Functional,
+Player Profile Service,Functional,
+Stats Service,Functional,
+Ranked Service,Functional,
+Match History Service,Functional,
+End of Game Service,Functional,
+Store Service,Functional,
+Loot Service,Functional,
+Payment Service,Functional,
+Transaction Service,Functional,
+Patch Distribution Service,Functional,
+Static Data Service,Functional,
+Configuration Service,Functional,
+Anti-Cheat Backend,Functional,
+Player Database Primary,Functional,
+Match History Database,Functional,
+Loot Database,Functional,
+Cache Layer,Functional,
+Message Queue,Functional,
+Monitoring Service,Functional,
+Log Aggregation,Functional,
+Riot-owned Data Center,Provider, Riot-owned Tier 1
+AWS EC2 NA,Provider, EC2 Auto Scaling Group (multi-AZ)
+Aurora Single Region,Provider, Aurora (Provisioned single region)
+DynamoDB On-Demand,Provider, DynamoDB (On-Demand)
+ElastiCache Single,Provider, ElastiCache (single node)
+AWS ALB,Provider, Application Load Balancer
+Route 53,Provider, Route 53 (Standard)
+Akamai CDN,Provider, CDN
+Cloudflare Business,Provider, Business
+MSK Kafka Single AZ,Provider, MSK (Managed Kafka single-AZ)

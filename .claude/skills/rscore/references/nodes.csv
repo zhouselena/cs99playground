@@ -1,14 +1,14 @@
-Node,Type, Service Tier
-Riot Direct,Functional,
-RiotSignOn,Functional,
-rCluster,Functional,
-Matchmaking,Functional,
-Player Profile,Functional,
-Loot Service,Functional,
-Riot Messaging Service,Functional,
-OpenContrail SDN,Functional, Sample Tier 1
-Riot-owned provider,Provider, Sample Tier 1
-AWS Region 1,Provider, Sample Tier 2
-AWS Region 2,Provider, Sample Tier 2
-AWS Region 3,Provider, Sample Tier 2
-AWS Region 4,Provider, Sample Tier 2
+Node,Type,Provider,Service Tier
+Riot Direct,Functional,,
+RiotSignOn,Functional,,
+rCluster,Functional,,
+Matchmaking,Functional,,
+Player Profile,Functional,,
+Loot Service,Functional,,
+Riot Messaging Service,Functional,,
+OpenContrail SDN,Functional,OpenContrail,Sample Tier 1
+Riot-owned provider,Provider,Riot,Sample Tier 1
+AWS Region 1,Provider,AWS Database,Sample Tier 2
+AWS Region 2,Provider,AWS Kinesis,Sample Tier 2
+AWS Region 3,Provider,AWS Messaging & Queueing,Sample Tier 2
+AWS Region 4,Provider,AWS Database,Sample Tier 2

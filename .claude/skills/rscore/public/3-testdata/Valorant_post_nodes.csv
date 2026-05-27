@@ -1,0 +1,67 @@
+Node,Type,Provider,Service Tier
+Riot Direct Network,Functional,,
+Valorant Client,Functional,,
+Riot Sign On (RSO),Functional,,
+Vanguard Anti-Cheat Service,Functional,,
+Riot Client Launcher,Functional,,
+Matchmaking Service NA,Functional,,
+Matchmaking Service EU,Functional,,
+Matchmaking Service AP,Functional,,
+Party Service,Functional,,
+Game Server Manager,Functional,,
+Game Server NA-1,Functional,,
+Game Server NA-2,Functional,,
+Game Server EU-1,Functional,,
+Game Server EU-2,Functional,,
+Game Server AP-1,Functional,,
+Global Load Balancer,Functional,,
+Regional Load Balancer NA,Functional,,
+Regional Load Balancer EU,Functional,,
+Regional Load Balancer AP,Functional,,
+Chat Service,Functional,,
+Voice Service,Functional,,
+Player Profile Service,Functional,,
+Competitive Rank Service,Functional,,
+Leaderboard Service,Functional,,
+Store Service,Functional,,
+Inventory Service,Functional,,
+Battle Pass Service,Functional,,
+Patch Distribution Service,Functional,,
+Anti-Cheat Telemetry,Functional,,
+Event Bus,Functional,,
+Analytics Ingestion,Functional,,
+Player Telemetry Aggregator,Functional,,
+Configuration Service,Functional,,
+DDoS Mitigation Layer,Functional,,
+API Gateway,Functional,,
+Social Graph Service,Functional,,
+Friends Service,Functional,,
+Presence Service,Functional,,
+Session Cache,Functional,,
+Notification Service,Functional,,
+Monitoring & Alerting,Functional,,
+Secret Management Service,Functional,,
+Riot BGP Network,Provider,Riot Network,Riot Direct BGP
+AWS Compute NA,Provider,AWS Compute,ECS/EKS (Fargate multi-AZ)
+AWS Compute EU,Provider,AWS Compute,ECS/EKS (Fargate multi-AZ)
+AWS Compute AP,Provider,AWS Compute,ECS/EKS (Fargate multi-AZ)
+AWS GameLift Fleet,Provider,Amazon GameLift,GameLift (multi-region FleetIQ)
+AWS Aurora Player DB,Provider,AWS Database,Aurora Global Database
+AWS DynamoDB Match,Provider,AWS Database,DynamoDB Global Tables
+AWS MemoryDB Session,Provider,AWS Database,MemoryDB for Redis (multi-region)
+AWS CloudFront,Provider,AWS Networking & Edge,CloudFront CDN
+AWS Global Accelerator,Provider,AWS Networking & Edge,AWS Global Accelerator
+AWS NLB NA,Provider,AWS Networking & Edge,Network Load Balancer
+AWS NLB EU,Provider,AWS Networking & Edge,Network Load Balancer
+AWS NLB AP,Provider,AWS Networking & Edge,Network Load Balancer
+AWS Route 53,Provider,AWS Networking & Edge,Route 53 (Standard)
+AWS Kinesis Analytics,Provider,AWS Messaging & Queuing,Kinesis (multi-shard enhanced fanout)
+AWS MSK Events,Provider,AWS Messaging & Queuing,MSK (Managed Kafka multi-AZ)
+AWS S3 Assets,Provider,AWS Storage,S3 Standard
+AWS Shield Advanced,Provider,AWS Security,Shield Advanced
+AWS WAF,Provider,AWS Security,WAF (Managed Rules)
+AWS Secrets Manager,Provider,AWS Security,Secrets Manager
+AWS CloudWatch,Provider,AWS Observability,CloudWatch (Container Insights)
+Cloudflare Enterprise Edge,Provider,Cloudflare,Enterprise
+Cloudflare Magic Transit,Provider,Cloudflare,Magic Transit
+Datadog Observability,Provider,Datadog,Enterprise

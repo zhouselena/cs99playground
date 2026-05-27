@@ -1,0 +1,78 @@
+Type,From,To
+Hosted-on,Riot Direct Network,Riot BGP Network
+Hosted-on,Riot Direct Network,Cloudflare Pro
+Hosted-on,Riot Sign On (RSO),AWS Compute NA
+Hosted-on,Vanguard Anti-Cheat Service,AWS Compute NA
+Hosted-on,Riot Client Launcher,AWS CloudFront
+Hosted-on,Matchmaking Service,AWS Compute NA
+Hosted-on,Party Service,AWS Compute NA
+Hosted-on,Game Server Manager,AWS GameLift Single
+Hosted-on,Game Server NA-1,AWS Compute NA
+Hosted-on,Global Load Balancer,AWS NLB
+Hosted-on,Global Load Balancer,AWS Route 53
+Hosted-on,Chat Service,AWS Compute NA
+Hosted-on,Voice Service,AWS Compute NA
+Hosted-on,Player Profile Service,AWS RDS Player DB
+Hosted-on,Competitive Rank Service,AWS RDS Match DB
+Hosted-on,Leaderboard Service,AWS RDS Match DB
+Hosted-on,Store Service,AWS Compute NA
+Hosted-on,Inventory Service,AWS RDS Player DB
+Hosted-on,Battle Pass Service,AWS Compute NA
+Hosted-on,Patch Distribution Service,AWS S3 Assets
+Hosted-on,Patch Distribution Service,AWS CloudFront
+Hosted-on,Anti-Cheat Telemetry,AWS Kinesis Single
+Hosted-on,Event Bus,AWS MSK Single
+Hosted-on,Analytics Ingestion,AWS Kinesis Single
+Hosted-on,Player Telemetry Aggregator,AWS S3 Assets
+Hosted-on,Configuration Service,AWS Compute NA
+Hosted-on,DDoS Mitigation Layer,AWS Shield Standard
+Hosted-on,API Gateway,AWS Compute NA
+Hosted-on,Social Graph Service,AWS RDS Match DB
+Hosted-on,Friends Service,AWS RDS Match DB
+Hosted-on,Presence Service,AWS ElastiCache
+Hosted-on,Session Cache,AWS ElastiCache
+Hosted-on,Notification Service,AWS MSK Single
+Hosted-on,Monitoring & Alerting,AWS CloudWatch Standard
+Hosted-on,Secret Management Service,AWS Secrets Manager
+Dependency,Valorant Client,DDoS Mitigation Layer
+Dependency,DDoS Mitigation Layer,Riot Direct Network
+Dependency,Riot Direct Network,Global Load Balancer
+Dependency,Riot Client Launcher,Riot Sign On (RSO)
+Dependency,Riot Sign On (RSO),Player Profile Service
+Dependency,Riot Sign On (RSO),Secret Management Service
+Dependency,Vanguard Anti-Cheat Service,Valorant Client
+Dependency,Vanguard Anti-Cheat Service,Anti-Cheat Telemetry
+Dependency,Matchmaking Service,Party Service
+Dependency,Matchmaking Service,Player Profile Service
+Dependency,Matchmaking Service,Competitive Rank Service
+Dependency,Matchmaking Service,Game Server Manager
+Dependency,Party Service,Chat Service
+Dependency,Party Service,Friends Service
+Dependency,Party Service,Social Graph Service
+Dependency,Game Server Manager,Game Server NA-1
+Dependency,Game Server NA-1,Anti-Cheat Telemetry
+Dependency,Game Server NA-1,Event Bus
+Dependency,Global Load Balancer,Matchmaking Service
+Dependency,Global Load Balancer,API Gateway
+Dependency,API Gateway,Riot Sign On (RSO)
+Dependency,API Gateway,Store Service
+Dependency,API Gateway,Player Profile Service
+Dependency,API Gateway,Social Graph Service
+Dependency,Store Service,Inventory Service
+Dependency,Store Service,Battle Pass Service
+Dependency,Store Service,Player Profile Service
+Dependency,Inventory Service,Player Profile Service
+Dependency,Battle Pass Service,Player Profile Service
+Dependency,Chat Service,Presence Service
+Dependency,Chat Service,Notification Service
+Dependency,Voice Service,Chat Service
+Dependency,Friends Service,Presence Service
+Dependency,Friends Service,Social Graph Service
+Dependency,Social Graph Service,Player Profile Service
+Dependency,Analytics Ingestion,Event Bus
+Dependency,Player Telemetry Aggregator,Analytics Ingestion
+Dependency,Monitoring & Alerting,Event Bus
+Dependency,Configuration Service,Matchmaking Service
+Dependency,Configuration Service,Game Server Manager
+Dependency,Leaderboard Service,Competitive Rank Service
+Dependency,Presence Service,Session Cache

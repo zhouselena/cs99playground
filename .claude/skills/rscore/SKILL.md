@@ -72,7 +72,14 @@ First, using the documentation you loaded in step 1, give a summary of the appli
 
 Then, explain what major degradations you made in step 4, and why it should perform worse than the infrastructure in step 3.
 
-Finally, report the results from `.claude/skills/rscore/public/testresults/{GAMENAME}_score.txt`. Say whether it matches expectations ("pre" score is worse than "post" score), and explain why or why not it may have turned out this way. Make sure to save this report to `.claude/skills/rscore/public/testresults/{GAMENAME}Report.md`.
+Finally, report the results from `.claude/skills/rscore/public/testresults/{GAMENAME}_score.txt`. Say whether it matches expectations ("pre" score is worse than "post" score), and explain why or why not it may have turned out this way. Create a table with the differences between the overall resiliency scores (specifically, Overall Resiliency Score, Articulation Points Ratio, Avg Clustering Coefficient, Avg Tech Score, Fielder Value, Degree Entropy, Beteweenness Centrality) and the numeric diff between each one. Remember, the calculation already normalizes all the scores so that a higher score for any of these should mean a better graph (for example, the value you get for betweenness is actually 1-{actual betweenness} so the higher the scored betweenness, the better). Make sure to save this report to `.claude/skills/rscore/public/testresults/{GAMENAME}Report.md`.
+
+Articulation Points Ratio      0.7463
+  Average Clustering Coefficient 0.0663
+  Average Tech Score             0.9324
+  Bounded Fielder Value          0.0094
+  Degree Entropy                 0.6329
+  Overall Betweenness Centrality 0.9795
 
 ## 7. Edge Cases
 
@@ -80,3 +87,4 @@ Finally, report the results from `.claude/skills/rscore/public/testresults/{GAME
 - If part of user input is a game and the rest isn't (e.g. "I want you to score League Of Legends) parse just the game as the single argument (e.g. `{GAMENAME}=LeagueOfLegends`)
 - If the executable is not found: tell the user to check that the `rscore` file is in `.claude/skills/rscore/bin/` and is executable (`chmod +x`)
 - If any directories are missing to write into, create them
+- If the user calls this command on a different game in the same session, you can save time and tokens by using your previously loaded information from steps 1 and 2 and then skip those steps

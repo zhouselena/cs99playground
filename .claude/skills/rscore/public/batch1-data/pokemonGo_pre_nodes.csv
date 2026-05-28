@@ -1,0 +1,69 @@
+Node,Type,Provider,Service Tier
+DNS,Functional,,
+DDoS Protection,Functional,,
+Load Balancer,Functional,,
+API Gateway,Functional,,
+Auth Service,Functional,,
+Account Service,Functional,,
+Session Manager,Functional,,
+Player Profile Service,Functional,,
+Inventory Service,Functional,,
+Pokemon Spawn Service,Functional,,
+Location Service,Functional,,
+Map Service,Functional,,
+Game State Service,Functional,,
+Gym Service,Functional,,
+PokeStop Service,Functional,,
+Raid Service,Functional,,
+Battle Service,Functional,,
+Remote Raid Service,Functional,,
+Matchmaking Service,Functional,,
+Party Service,Functional,,
+Friends Service,Functional,,
+Trading Service,Functional,,
+Gift Service,Functional,,
+Buddy Service,Functional,,
+Team Service,Functional,,
+Event Service,Functional,,
+Research Service,Functional,,
+Pokedex Service,Functional,,
+Egg Hatch Service,Functional,,
+Adventure Sync Service,Functional,,
+Weather Service,Functional,,
+Shop Service,Functional,,
+Payment Gateway,Functional,,
+Notification Service,Functional,,
+Push Notification Service,Functional,,
+Event Bus,Functional,,
+Analytics Pipeline,Functional,,
+Telemetry Collector,Functional,,
+Monitoring Service,Functional,,
+Incident Alert Service,Functional,,
+Anti-Cheat Service,Functional,,
+Moderation Service,Functional,,
+Leaderboard Service,Functional,,
+Player Stats Service,Functional,,
+CDN Network,Functional,,
+Content Delivery Service,Functional,,
+Config Service,Functional,,
+Service Discovery,Functional,,
+News Feed Service,Functional,,
+Asset Store Service,Functional,,
+GCP Compute,Provider,GCP,GKE Standard (multi-zone)
+GCP Distributed DB,Provider,GCP,Cloud SQL (HA)
+GCP Document DB,Provider,GCP,Firestore
+GCP Messaging,Provider,GCP,Cloud Pub/Sub
+GCP Serverless,Provider,GCP,Cloud Run
+AWS DDoS Shield,Provider,AWS Security,Shield Standard
+AWS CDN,Provider,AWS Networking & Edge,CloudFront CDN
+AWS Load Balancer,Provider,AWS Networking & Edge,Application Load Balancer
+AWS DNS,Provider,AWS Networking & Edge,Route 53 (Standard)
+AWS Cache,Provider,AWS Database,ElastiCache (single node)
+AWS Events,Provider,AWS Messaging & Queuing,EventBridge
+AWS WAF,Provider,AWS Security,WAF (Managed Rules)
+AWS Object Storage,Provider,AWS Storage,S3 One Zone-IA
+AWS Metrics,Provider,AWS Observability,CloudWatch (standard)
+AWS Log Analytics,Provider,AWS Observability,OpenSearch (single AZ)
+Datadog APM,Provider,Datadog,Pro
+PagerDuty Alerts,Provider,PagerDuty,Incident Management
+Stripe Payments,Provider,Stripe,Payment Processing

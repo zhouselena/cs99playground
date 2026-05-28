@@ -1,0 +1,116 @@
+Type,From,To
+Dependency,DDoS Protection,DNS Service
+Dependency,Load Balancer,DDoS Protection
+Dependency,CDN Edge,DDoS Protection
+Dependency,API Gateway,Load Balancer
+Dependency,API Gateway,Auth Service
+Dependency,API Gateway,Matchmaking Service
+Dependency,API Gateway,Store Service
+Dependency,API Gateway,Chat Service
+Dependency,API Gateway,Player Profile Service
+Dependency,Auth Service,Account Service
+Dependency,Auth Service,Session Token Store
+Dependency,Auth Service,Secret Management Service
+Dependency,Matchmaking Service,Auth Service
+Dependency,Matchmaking Service,Player Profile Service
+Dependency,Matchmaking Service,Lobby Manager
+Dependency,Matchmaking Service,Event Bus
+Dependency,Lobby Manager,Game Server NA
+Dependency,Lobby Manager,Game Server EU
+Dependency,Lobby Manager,Game Server AS
+Dependency,Lobby Manager,Lobby Code Service
+Dependency,Lobby Manager,Role Assignment Service
+Dependency,Game Server NA,Game State Manager
+Dependency,Game Server EU,Game State Manager
+Dependency,Game Server AS,Game State Manager
+Dependency,Game Server NA,Anti-Cheat Service
+Dependency,Game Server EU,Anti-Cheat Service
+Dependency,Game Server AS,Anti-Cheat Service
+Dependency,Game State Manager,Session Persistence
+Dependency,Game State Manager,Task Assignment Service
+Dependency,Game State Manager,Map Selector Service
+Dependency,Game State Manager,Vote System Service
+Dependency,Role Assignment Service,Game State Manager
+Dependency,Account Service,Player Profile Service
+Dependency,Player Profile Service,Achievement Service
+Dependency,Friends Service,Account Service
+Dependency,Friends Service,Player Profile Service
+Dependency,Store Service,Player Profile Service
+Dependency,Store Service,Cosmetics Service
+Dependency,Store Service,DLC Service
+Dependency,Cosmetics Service,Inventory Service
+Dependency,DLC Service,Inventory Service
+Dependency,Achievement Service,Inventory Service
+Dependency,Payment Gateway,Store Service
+Dependency,Payment Gateway,Secret Management Service
+Dependency,Chat Service,Lobby Manager
+Dependency,Notification Service,Chat Service
+Dependency,Notification Service,Event Bus
+Dependency,Player Report Service,Moderation Service
+Dependency,Moderation Service,Account Service
+Dependency,Content Delivery Service,Asset Service
+Dependency,Asset Service,CDN Edge
+Dependency,Game Update Service,Content Delivery Service
+Dependency,Telemetry Collector,Game Server NA
+Dependency,Telemetry Collector,Game Server EU
+Dependency,Telemetry Collector,Game Server AS
+Dependency,Analytics Service,Telemetry Collector
+Dependency,Analytics Service,Event Bus
+Dependency,Log Aggregation,Telemetry Collector
+Dependency,Monitoring Service,Log Aggregation
+Dependency,Incident Alert Service,Monitoring Service
+Dependency,Feature Flags,Config Service
+Hosted-on,DNS Service,AWS Route 53
+Hosted-on,DDoS Protection,AWS Shield Advanced
+Hosted-on,CDN Edge,AWS CloudFront
+Hosted-on,Load Balancer,AWS ALB
+Hosted-on,API Gateway,AWS WAF
+Hosted-on,API Gateway,AWS Compute Backend
+Hosted-on,Auth Service,AWS Compute Backend
+Hosted-on,Account Service,AWS Compute Backend
+Hosted-on,Session Token Store,AWS ElastiCache Cluster
+Hosted-on,Matchmaking Service,AWS Compute Backend
+Hosted-on,Lobby Manager,AWS Compute Backend
+Hosted-on,Lobby Code Service,AWS Lambda
+Hosted-on,Game Server NA,GameLift Fleet NA
+Hosted-on,Game Server EU,GameLift Fleet EU
+Hosted-on,Game Server AS,GameLift Fleet AS
+Hosted-on,Game State Manager,AWS ElastiCache Cluster
+Hosted-on,Anti-Cheat Service,AWS Compute Backend
+Hosted-on,Player Profile Service,AWS DynamoDB Global
+Hosted-on,Player Profile Service,AWS Compute Backend
+Hosted-on,Friends Service,AWS DynamoDB Global
+Hosted-on,Friends Service,AWS Compute Backend
+Hosted-on,Cosmetics Service,AWS Compute Backend
+Hosted-on,Store Service,AWS Compute Backend
+Hosted-on,Store Service,AWS RDS Multi-AZ
+Hosted-on,Payment Gateway,AWS Compute Backend
+Hosted-on,Payment Gateway,Stripe Payments
+Hosted-on,Inventory Service,AWS DynamoDB Global
+Hosted-on,Inventory Service,AWS Compute Backend
+Hosted-on,DLC Service,AWS Compute Backend
+Hosted-on,Chat Service,AWS Compute Backend
+Hosted-on,Notification Service,AWS SNS
+Hosted-on,Notification Service,AWS Compute Backend
+Hosted-on,Content Delivery Service,AWS CloudFront
+Hosted-on,Asset Service,AWS S3
+Hosted-on,Game Update Service,AWS S3
+Hosted-on,Telemetry Collector,AWS SQS
+Hosted-on,Analytics Service,AWS Compute Backend
+Hosted-on,Event Bus,AWS EventBridge
+Hosted-on,Config Service,AWS Compute Backend
+Hosted-on,Feature Flags,AWS Lambda
+Hosted-on,Log Aggregation,AWS CloudWatch
+Hosted-on,Monitoring Service,Datadog Pro
+Hosted-on,Incident Alert Service,PagerDuty
+Hosted-on,Player Report Service,AWS Compute Backend
+Hosted-on,Moderation Service,AWS Compute Backend
+Hosted-on,Role Assignment Service,AWS Lambda
+Hosted-on,Task Assignment Service,AWS Lambda
+Hosted-on,Vote System Service,AWS Lambda
+Hosted-on,Session Persistence,AWS ElastiCache Cluster
+Hosted-on,Session Persistence,AWS DynamoDB Global
+Hosted-on,Map Selector Service,AWS Lambda
+Hosted-on,Achievement Service,AWS DynamoDB Global
+Hosted-on,Achievement Service,AWS Compute Backend
+Hosted-on,Secret Management Service,AWS Secrets Manager

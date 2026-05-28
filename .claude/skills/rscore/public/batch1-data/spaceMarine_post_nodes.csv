@@ -1,0 +1,71 @@
+Node,Type,Provider,Service Tier
+DNS,Functional,,
+DDoS Protection,Functional,,
+Load Balancer,Functional,,
+API Gateway,Functional,,
+Auth Service,Functional,,
+Focus Account Service,Functional,,
+Session Manager,Functional,,
+Player Profile Service,Functional,,
+Inventory Service,Functional,,
+Game Server NA,Functional,,
+Game Server EU,Functional,,
+Game Server AP,Functional,,
+Operations Service,Functional,,
+Eternal War Service,Functional,,
+Matchmaking Service,Functional,,
+Party Service,Functional,,
+Squad Service,Functional,,
+Friends Service,Functional,,
+Game State Service,Functional,,
+Mission Service,Functional,,
+Chapter Selector Service,Functional,,
+Armory Service,Functional,,
+Requisition Service,Functional,,
+Battle Pass Service,Functional,,
+Store Service,Functional,,
+Payment Gateway,Functional,,
+Anti-Cheat Service,Functional,,
+Platform Service,Functional,,
+Voice Chat Service,Functional,,
+Notification Service,Functional,,
+Event Bus,Functional,,
+Analytics Pipeline,Functional,,
+Telemetry Collector,Functional,,
+Monitoring Service,Functional,,
+Incident Alert Service,Functional,,
+Leaderboard Service,Functional,,
+Player Stats Service,Functional,,
+Achievement Service,Functional,,
+CDN Network,Functional,,
+Content Delivery Service,Functional,,
+Patch Distribution Service,Functional,,
+Config Service,Functional,,
+Service Discovery,Functional,,
+Presence Service,Functional,,
+Report Service,Functional,,
+Moderation Service,Functional,,
+News Feed Service,Functional,,
+Asset Store Service,Functional,,
+Challenge Service,Functional,,
+Campaign Progress Service,Functional,,
+AWS Compute,Provider,AWS Compute,ECS/EKS (Fargate multi-AZ)
+AWS Game Servers,Provider,Amazon GameLift,GameLift (multi-region FleetIQ)
+AWS Player DB,Provider,AWS Database,DynamoDB Global Tables
+AWS Stats DB,Provider,AWS Database,Aurora Global Database
+AWS Cache,Provider,AWS Database,ElastiCache (cluster mode)
+Cloudflare Edge,Provider,Cloudflare,Enterprise
+AWS DDoS Shield,Provider,AWS Security,Shield Advanced
+AWS CDN,Provider,AWS Networking & Edge,CloudFront CDN
+AWS Accelerator,Provider,AWS Networking & Edge,AWS Global Accelerator
+AWS Load Balancer,Provider,AWS Networking & Edge,Application Load Balancer
+AWS DNS,Provider,AWS Networking & Edge,Route 53 (Standard)
+AWS Event Bus,Provider,AWS Messaging & Queuing,EventBridge
+AWS Notifications,Provider,AWS Messaging & Queuing,SNS
+AWS WAF,Provider,AWS Security,WAF (Managed Rules)
+AWS Object Storage,Provider,AWS Storage,S3 Standard
+AWS Metrics,Provider,AWS Observability,CloudWatch (Container Insights)
+Datadog APM,Provider,Datadog,Enterprise
+PagerDuty Alerts,Provider,PagerDuty,Incident Management
+Stripe Payments,Provider,Stripe,Payment Processing
+AWS Queue,Provider,AWS Messaging & Queuing,SQS Standard

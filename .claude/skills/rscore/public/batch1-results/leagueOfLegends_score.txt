@@ -1,0 +1,145 @@
+=== leagueOfLegends PRE ===
+=== Infrastructure Resilience Score: 0.6101 ===
+  Articulation Points Ratio      0.7547
+  Average Clustering Coefficient 0.0916
+  Average Tech Score             0.9047
+  Bounded Fielder Value          0.0211
+  Degree Entropy                 0.7170
+  Overall Betweenness Centrality 0.9627
+Recommendation: placeholder for recommendation
+
+=== Node Criticality Scores ===
+  Summoner Profile Service       0.4418
+  Event Bus                      0.4356
+  Game Server Manager            0.3965
+  Presence Service               0.3805
+  Secret Management Service      0.3676
+  Riot Direct Network            0.3592
+  Regional Load Balancer EU      0.3553
+  DDoS Mitigation Layer          0.3549
+  Global Load Balancer           0.3531
+  Regional Load Balancer NA      0.3506
+  Riot Sign On (RSO)             0.3416
+  Analytics Pipeline             0.3404
+  Monitoring & Alerting          0.3000
+  AWS RDS Game DB                0.2500
+  AWS Compute NA                 0.2208
+  AWS Kinesis Single             0.2008
+  AWS MSK Single                 0.2008
+  AWS ElastiCache                0.1783
+  AWS S3 Assets                  0.1725
+  AWS Compute EU                 0.1708
+  AWS Shield Standard            0.1600
+  AWS CloudFront                 0.1558
+  AWS RDS Player DB              0.1525
+  AWS GameLift Single            0.1420
+  AWS CloudWatch Standard        0.1420
+  Ranked LP Service              0.1350
+  AWS Secrets Manager            0.1300
+  AWS NLB NA                     0.1270
+  AWS NLB EU                     0.1270
+  AWS Route 53                   0.1270
+  Riot BGP Network               0.1225
+  Anti-Cheat Service             0.1001
+  Champion Data Service          0.0858
+  Mastery Service                0.0846
+  Matchmaking Queue NA           0.0845
+  Champion Select Service        0.0722
+  Notification Service           0.0668
+  Session Cache                  0.0667
+  Matchmaking Queue EU           0.0646
+  End of Game Stats Service      0.0604
+  Hextech Loot Service           0.0500
+  Clash Service                  0.0415
+  Store Service                  0.0408
+  Game Server EU-1               0.0377
+  Cloudflare Business            0.0375
+  Game Server NA-1               0.0372
+  API Gateway                    0.0348
+  Configuration Service          0.0000
+  Player Telemetry Service       0.0000
+  Patch Distribution Service     0.0000
+  Chat Service                   0.0000
+  Friends Service                0.0000
+  LoL Client                     0.0000
+
+=== leagueOfLegends POST ===
+=== Infrastructure Resilience Score: 0.6174 ===
+  Articulation Points Ratio      0.7826
+  Average Clustering Coefficient 0.0777
+  Average Tech Score             0.9346
+  Bounded Fielder Value          0.0106
+  Degree Entropy                 0.6951
+  Overall Betweenness Centrality 0.9631
+Recommendation: placeholder for recommendation
+
+=== Node Criticality Scores ===
+  Event Bus                      0.4620
+  Summoner Profile Service       0.4562
+  Game Server Manager            0.3824
+  Presence Service               0.3803
+  Secret Management Service      0.3673
+  OpenContrail SDN               0.3601
+  Regional Load Balancer EU      0.3532
+  Regional Load Balancer KR      0.3532
+  Regional Load Balancer NA      0.3477
+  DDoS Mitigation Layer          0.3439
+  Global Load Balancer           0.3415
+  Riot Direct Network            0.3407
+  Analytics Pipeline             0.3402
+  Riot Sign On (RSO)             0.3299
+  Monitoring & Alerting          0.3000
+  AWS Compute NA                 0.2187
+  AWS Compute EU                 0.2080
+  AWS Compute KR                 0.1997
+  AWS S3 Assets                  0.1892
+  AWS MSK Events                 0.1708
+  AWS Kinesis Analytics          0.1708
+  AWS DynamoDB Game              0.1705
+  AWS CloudFront                 0.1558
+  AWS MemoryDB Session           0.1513
+  Riot Private DC                0.1450
+  Ranked LP Service              0.1441
+  Anti-Cheat Service             0.1431
+  AWS CloudWatch                 0.1375
+  AWS WAF                        0.1375
+  AWS Secrets Manager            0.1300
+  AWS NLB KR                     0.1270
+  AWS Route 53                   0.1270
+  AWS GameLift Fleet             0.1270
+  AWS NLB EU                     0.1270
+  AWS NLB NA                     0.1270
+  Datadog Observability          0.1270
+  Cloudflare Magic Transit       0.1225
+  Riot BGP Network               0.1225
+  AWS Shield Advanced            0.1195
+  AWS Global Accelerator         0.1195
+  Cloudflare Enterprise Edge     0.1180
+  AWS Aurora Player DB           0.1150
+  End of Game Stats Service      0.1048
+  Champion Data Service          0.0841
+  Mastery Service                0.0839
+  Game Server NA-1               0.0766
+  Game Server EU-1               0.0766
+  Matchmaking Queue NA           0.0725
+  Champion Select Service        0.0701
+  Notification Service           0.0667
+  Session Cache                  0.0667
+  Game Server KR-1               0.0582
+  Game Server EU-2               0.0582
+  Game Server NA-2               0.0582
+  Matchmaking Queue EU           0.0545
+  Matchmaking Queue KR           0.0545
+  Hextech Loot Service           0.0500
+  Esports Data Service           0.0416
+  Clash Service                  0.0408
+  Store Service                  0.0405
+  API Gateway                    0.0303
+  LoL Client                     0.0000
+  Spectator Service              0.0000
+  Chat Service                   0.0000
+  Replay Service                 0.0000
+  Friends Service                0.0000
+  Player Telemetry Service       0.0000
+  Configuration Service          0.0000
+  Patch Distribution Service     0.0000

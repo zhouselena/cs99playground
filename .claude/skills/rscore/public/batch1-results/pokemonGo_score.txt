@@ -1,0 +1,161 @@
+=== pokemonGo PRE ===
+=== Infrastructure Resilience Score: 0.6758 ===
+  Articulation Points Ratio      0.9559
+  Average Clustering Coefficient 0.2111
+  Average Tech Score             0.9275
+  Bounded Fielder Value          0.0546
+  Degree Entropy                 0.6726
+  Overall Betweenness Centrality 0.9708
+Recommendation: placeholder for recommendation
+
+=== Node Criticality Scores ===
+  GCP Compute                    0.5314
+  API Gateway                    0.3220
+  Monitoring Service             0.3000
+  AWS Cache                      0.2308
+  GCP Distributed DB             0.2147
+  AWS Log Analytics              0.2008
+  AWS Object Storage             0.2008
+  AWS DDoS Shield                0.1933
+  GCP Document DB                0.1870
+  GCP Messaging                  0.1770
+  AWS Metrics                    0.1753
+  Datadog APM                    0.1708
+  AWS WAF                        0.1708
+  GCP Serverless                 0.1663
+  PagerDuty Alerts               0.1633
+  AWS Load Balancer              0.1633
+  AWS Events                     0.1633
+  AWS DNS                        0.1603
+  AWS CDN                        0.1558
+  Stripe Payments                0.1513
+  Game State Service             0.1509
+  Inventory Service              0.1461
+  Player Stats Service           0.1365
+  Account Service                0.1342
+  Notification Service           0.1023
+  Matchmaking Service            0.0871
+  Friends Service                0.0870
+  Pokemon Spawn Service          0.0862
+  Anti-Cheat Service             0.0810
+  Map Service                    0.0808
+  Player Profile Service         0.0769
+  Load Balancer                  0.0705
+  Push Notification Service      0.0686
+  Adventure Sync Service         0.0667
+  Service Discovery              0.0667
+  Team Service                   0.0667
+  Pokedex Service                0.0667
+  Incident Alert Service         0.0667
+  Battle Service                 0.0590
+  CDN Network                    0.0509
+  Payment Gateway                0.0505
+  Analytics Pipeline             0.0502
+  Asset Store Service            0.0502
+  Buddy Service                  0.0500
+  Shop Service                   0.0408
+  PokeStop Service               0.0407
+  Content Delivery Service       0.0407
+  Gym Service                    0.0407
+  Auth Service                   0.0404
+  Session Manager                0.0403
+  Config Service                 0.0402
+  DDoS Protection                0.0402
+  Event Bus                      0.0348
+  Raid Service                   0.0297
+  News Feed Service              0.0000
+  Location Service               0.0000
+  Research Service               0.0000
+  Moderation Service             0.0000
+  DNS                            0.0000
+  Leaderboard Service            0.0000
+  Trading Service                0.0000
+  Party Service                  0.0000
+  Egg Hatch Service              0.0000
+  Event Service                  0.0000
+  Gift Service                   0.0000
+  Weather Service                0.0000
+  Remote Raid Service            0.0000
+  Telemetry Collector            0.0000
+
+=== pokemonGo POST ===
+=== Infrastructure Resilience Score: 0.6866 ===
+  Articulation Points Ratio      0.9857
+  Average Clustering Coefficient 0.2123
+  Average Tech Score             0.9473
+  Bounded Fielder Value          0.0613
+  Degree Entropy                 0.6645
+  Overall Betweenness Centrality 0.9674
+Recommendation: placeholder for recommendation
+
+=== Node Criticality Scores ===
+  Monitoring Service             0.3000
+  GCP Compute                    0.2269
+  GCP Document DB                0.1870
+  GCP Distributed DB             0.1787
+  AWS Cache                      0.1783
+  GCP Messaging                  0.1770
+  AWS WAF                        0.1708
+  AWS Metrics                    0.1708
+  AWS Log Analytics              0.1708
+  GCP Serverless                 0.1663
+  AWS Load Balancer              0.1633
+  AWS Events                     0.1633
+  PagerDuty Alerts               0.1633
+  AWS DNS                        0.1603
+  Datadog APM                    0.1603
+  AWS Object Storage             0.1558
+  AWS CDN                        0.1558
+  AWS Accelerator                0.1528
+  AWS DDoS Shield                0.1528
+  Cloudflare Edge                0.1513
+  Stripe Payments                0.1513
+  Game State Service             0.1508
+  Inventory Service              0.1461
+  Player Stats Service           0.1363
+  Account Service                0.1349
+  Anti-Cheat Service             0.1152
+  Friends Service                0.1131
+  Notification Service           0.1033
+  Player Profile Service         0.0971
+  Event Bus                      0.0925
+  Matchmaking Service            0.0870
+  Pokemon Spawn Service          0.0863
+  Map Service                    0.0814
+  Push Notification Service      0.0694
+  Pokedex Service                0.0667
+  Incident Alert Service         0.0667
+  Team Service                   0.0667
+  Service Discovery              0.0667
+  Load Balancer                  0.0609
+  Battle Service                 0.0592
+  Payment Gateway                0.0504
+  Adventure Sync Service         0.0502
+  Asset Store Service            0.0501
+  Buddy Service                  0.0500
+  CDN Network                    0.0415
+  PokeStop Service               0.0413
+  Gym Service                    0.0412
+  Content Delivery Service       0.0408
+  Shop Service                   0.0407
+  Analytics Pipeline             0.0405
+  Auth Service                   0.0404
+  Session Manager                0.0403
+  Config Service                 0.0402
+  Party Service                  0.0401
+  DDoS Protection                0.0336
+  Location Service               0.0306
+  Event Service                  0.0299
+  Raid Service                   0.0290
+  API Gateway                    0.0205
+  Moderation Service             0.0000
+  Weather Service                0.0000
+  Gift Service                   0.0000
+  Remote Raid Service            0.0000
+  Leaderboard Service            0.0000
+  Telemetry Collector            0.0000
+  Research Service               0.0000
+  Trading Service                0.0000
+  DNS                            0.0000
+  Egg Hatch Service              0.0000
+  News Feed Service              0.0000

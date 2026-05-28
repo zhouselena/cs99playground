@@ -1,0 +1,146 @@
+Type,From,To
+Hosted-on,Auth Service,GCP Compute
+Hosted-on,Account Service,GCP Compute
+Hosted-on,Session Manager,GCP Compute
+Hosted-on,Player Profile Service,GCP Compute
+Hosted-on,Inventory Service,GCP Compute
+Hosted-on,Pokemon Spawn Service,GCP Compute
+Hosted-on,Location Service,GCP Compute
+Hosted-on,Map Service,GCP Compute
+Hosted-on,Gym Service,GCP Compute
+Hosted-on,PokeStop Service,GCP Compute
+Hosted-on,Raid Service,GCP Compute
+Hosted-on,Battle Service,GCP Compute
+Hosted-on,Remote Raid Service,GCP Compute
+Hosted-on,Matchmaking Service,GCP Compute
+Hosted-on,Party Service,GCP Compute
+Hosted-on,Friends Service,GCP Compute
+Hosted-on,Trading Service,GCP Compute
+Hosted-on,Gift Service,GCP Compute
+Hosted-on,Buddy Service,GCP Compute
+Hosted-on,Team Service,GCP Compute
+Hosted-on,Event Service,GCP Compute
+Hosted-on,Research Service,GCP Compute
+Hosted-on,Pokedex Service,GCP Compute
+Hosted-on,Egg Hatch Service,GCP Compute
+Hosted-on,Anti-Cheat Service,GCP Compute
+Hosted-on,Moderation Service,GCP Compute
+Hosted-on,Leaderboard Service,GCP Compute
+Hosted-on,Player Stats Service,GCP Compute
+Hosted-on,News Feed Service,GCP Compute
+Hosted-on,Asset Store Service,GCP Compute
+Hosted-on,Config Service,GCP Compute
+Hosted-on,Service Discovery,GCP Compute
+Hosted-on,Player Profile Service,GCP Distributed DB
+Hosted-on,Inventory Service,GCP Distributed DB
+Hosted-on,Friends Service,GCP Distributed DB
+Hosted-on,Trading Service,GCP Distributed DB
+Hosted-on,Account Service,GCP Distributed DB
+Hosted-on,Game State Service,GCP Document DB
+Hosted-on,Pokemon Spawn Service,GCP Document DB
+Hosted-on,Research Service,GCP Document DB
+Hosted-on,Config Service,GCP Document DB
+Hosted-on,Event Bus,GCP Messaging
+Hosted-on,Telemetry Collector,GCP Messaging
+Hosted-on,Analytics Pipeline,GCP Messaging
+Hosted-on,Weather Service,GCP Serverless
+Hosted-on,Adventure Sync Service,GCP Serverless
+Hosted-on,DDoS Protection,AWS DDoS Shield
+Hosted-on,API Gateway,AWS DDoS Shield
+Hosted-on,CDN Network,AWS CDN
+Hosted-on,Content Delivery Service,AWS CDN
+Hosted-on,Load Balancer,AWS Load Balancer
+Hosted-on,API Gateway,AWS Load Balancer
+Hosted-on,DNS,AWS DNS
+Hosted-on,Load Balancer,AWS DNS
+Hosted-on,Session Manager,AWS Cache
+Hosted-on,Matchmaking Service,AWS Cache
+Hosted-on,Event Bus,AWS Events
+Hosted-on,Notification Service,AWS Events
+Hosted-on,API Gateway,AWS WAF
+Hosted-on,DDoS Protection,AWS WAF
+Hosted-on,Content Delivery Service,AWS Object Storage
+Hosted-on,Asset Store Service,AWS Object Storage
+Hosted-on,Monitoring Service,AWS Metrics
+Hosted-on,Telemetry Collector,AWS Metrics
+Hosted-on,Analytics Pipeline,AWS Log Analytics
+Hosted-on,Monitoring Service,AWS Log Analytics
+Hosted-on,Monitoring Service,Datadog APM
+Hosted-on,Telemetry Collector,Datadog APM
+Hosted-on,Monitoring Service,PagerDuty Alerts
+Hosted-on,Incident Alert Service,PagerDuty Alerts
+Hosted-on,Payment Gateway,Stripe Payments
+Hosted-on,Shop Service,Stripe Payments
+Dependency,DNS,Load Balancer
+Dependency,DNS,DDoS Protection
+Dependency,DDoS Protection,Load Balancer
+Dependency,Load Balancer,API Gateway
+Dependency,API Gateway,Auth Service
+Dependency,API Gateway,Account Service
+Dependency,API Gateway,Player Profile Service
+Dependency,API Gateway,Matchmaking Service
+Dependency,API Gateway,Shop Service
+Dependency,API Gateway,Friends Service
+Dependency,API Gateway,Notification Service
+Dependency,Auth Service,Account Service
+Dependency,Auth Service,Session Manager
+Dependency,Session Manager,Player Profile Service
+Dependency,Account Service,Player Profile Service
+Dependency,Player Profile Service,Inventory Service
+Dependency,Player Profile Service,Pokedex Service
+Dependency,Player Profile Service,Player Stats Service
+Dependency,Player Profile Service,Buddy Service
+Dependency,Player Profile Service,Team Service
+Dependency,Location Service,Pokemon Spawn Service
+Dependency,Location Service,Gym Service
+Dependency,Location Service,PokeStop Service
+Dependency,Location Service,Map Service
+Dependency,Pokemon Spawn Service,Game State Service
+Dependency,Map Service,CDN Network
+Dependency,Gym Service,Battle Service
+Dependency,Gym Service,Game State Service
+Dependency,PokeStop Service,Inventory Service
+Dependency,PokeStop Service,Event Bus
+Dependency,Battle Service,Player Stats Service
+Dependency,Battle Service,Anti-Cheat Service
+Dependency,Battle Service,Game State Service
+Dependency,Raid Service,Battle Service
+Dependency,Raid Service,Matchmaking Service
+Dependency,Raid Service,Game State Service
+Dependency,Raid Service,Anti-Cheat Service
+Dependency,Remote Raid Service,Raid Service
+Dependency,Matchmaking Service,Game State Service
+Dependency,Party Service,Friends Service
+Dependency,Party Service,Matchmaking Service
+Dependency,Friends Service,Account Service
+Dependency,Trading Service,Inventory Service
+Dependency,Trading Service,Friends Service
+Dependency,Gift Service,Inventory Service
+Dependency,Buddy Service,Inventory Service
+Dependency,Research Service,Inventory Service
+Dependency,Research Service,Player Stats Service
+Dependency,Egg Hatch Service,Inventory Service
+Dependency,Egg Hatch Service,Adventure Sync Service
+Dependency,Egg Hatch Service,Player Stats Service
+Dependency,Event Service,Pokemon Spawn Service
+Dependency,Event Service,Player Stats Service
+Dependency,Event Service,Notification Service
+Dependency,Weather Service,Pokemon Spawn Service
+Dependency,Weather Service,Map Service
+Dependency,Shop Service,Inventory Service
+Dependency,Shop Service,Payment Gateway
+Dependency,Payment Gateway,Account Service
+Dependency,Notification Service,Push Notification Service
+Dependency,Push Notification Service,Account Service
+Dependency,Event Bus,Notification Service
+Dependency,Event Bus,Analytics Pipeline
+Dependency,Anti-Cheat Service,Account Service
+Dependency,Moderation Service,Account Service
+Dependency,Leaderboard Service,Player Stats Service
+Dependency,Player Stats Service,Player Profile Service
+Dependency,Telemetry Collector,Game State Service
+Dependency,Monitoring Service,Incident Alert Service
+Dependency,Monitoring Service,Config Service
+Dependency,CDN Network,Content Delivery Service
+Dependency,Content Delivery Service,Asset Store Service
+Dependency,Config Service,Service Discovery

@@ -1,0 +1,161 @@
+=== spaceMarine PRE ===
+=== Infrastructure Resilience Score: 0.6666 ===
+  Articulation Points Ratio      0.9412
+  Average Clustering Coefficient 0.1996
+  Average Tech Score             0.9346
+  Bounded Fielder Value          0.0317
+  Degree Entropy                 0.6622
+  Overall Betweenness Centrality 0.9590
+Recommendation: placeholder for recommendation
+
+=== Node Criticality Scores ===
+  AWS Compute                    0.5361
+  Content Delivery Service       0.3586
+  Operations Service             0.3263
+  API Gateway                    0.3247
+  AWS Cache                      0.2475
+  AWS Player DB                  0.1967
+  AWS DDoS Shield                0.1933
+  AWS Game Servers               0.1920
+  AWS Stats DB                   0.1830
+  AWS Metrics                    0.1753
+  AWS Object Storage             0.1725
+  AWS WAF                        0.1708
+  Datadog APM                    0.1708
+  AWS Notifications              0.1663
+  AWS Queue                      0.1663
+  AWS Load Balancer              0.1633
+  AWS Event Bus                  0.1633
+  PagerDuty Alerts               0.1633
+  Game State Service             0.1629
+  AWS DNS                        0.1603
+  AWS CDN                        0.1558
+  Stripe Payments                0.1513
+  Focus Account Service          0.1455
+  Inventory Service              0.1378
+  Matchmaking Service            0.1063
+  Mission Service                0.0813
+  Player Profile Service         0.0810
+  Game Server EU                 0.0808
+  Game Server AP                 0.0808
+  Player Stats Service           0.0803
+  Campaign Progress Service      0.0801
+  Load Balancer                  0.0723
+  Anti-Cheat Service             0.0705
+  Friends Service                0.0691
+  Achievement Service            0.0678
+  Patch Distribution Service     0.0667
+  Asset Store Service            0.0667
+  Game Server NA                 0.0624
+  Notification Service           0.0617
+  Telemetry Collector            0.0610
+  Service Discovery              0.0519
+  Moderation Service             0.0510
+  Config Service                 0.0509
+  Presence Service               0.0508
+  Payment Gateway                0.0507
+  Requisition Service            0.0501
+  Leaderboard Service            0.0500
+  Incident Alert Service         0.0500
+  Event Bus                      0.0455
+  Squad Service                  0.0440
+  Analytics Pipeline             0.0434
+  Party Service                  0.0432
+  Armory Service                 0.0421
+  Platform Service               0.0413
+  Session Manager                0.0406
+  Auth Service                   0.0404
+  Challenge Service              0.0403
+  DDoS Protection                0.0402
+  Store Service                  0.0350
+  Eternal War Service            0.0310
+  News Feed Service              0.0000
+  Voice Chat Service             0.0000
+  CDN Network                    0.0000
+  Chapter Selector Service       0.0000
+  Battle Pass Service            0.0000
+  Report Service                 0.0000
+  Monitoring Service             0.0000
+  DNS                            0.0000
+
+=== spaceMarine POST ===
+=== Infrastructure Resilience Score: 0.6773 ===
+  Articulation Points Ratio      0.9857
+  Average Clustering Coefficient 0.1932
+  Average Tech Score             0.9490
+  Bounded Fielder Value          0.0615
+  Degree Entropy                 0.6708
+  Overall Betweenness Centrality 0.9174
+Recommendation: placeholder for recommendation
+
+=== Node Criticality Scores ===
+  Content Delivery Service       0.3597
+  AWS Compute                    0.2271
+  AWS Cache                      0.1950
+  AWS Player DB                  0.1772
+  AWS Game Servers               0.1770
+  AWS Object Storage             0.1725
+  AWS Metrics                    0.1708
+  AWS WAF                        0.1708
+  Game State Service             0.1692
+  AWS Notifications              0.1663
+  AWS Queue                      0.1663
+  AWS Stats DB                   0.1650
+  PagerDuty Alerts               0.1633
+  AWS Event Bus                  0.1633
+  AWS Load Balancer              0.1633
+  Datadog APM                    0.1603
+  AWS DNS                        0.1603
+  Focus Account Service          0.1583
+  AWS CDN                        0.1558
+  AWS DDoS Shield                0.1528
+  AWS Accelerator                0.1528
+  Stripe Payments                0.1513
+  Cloudflare Edge                0.1513
+  Inventory Service              0.1401
+  Anti-Cheat Service             0.1203
+  Matchmaking Service            0.1089
+  Player Profile Service         0.1089
+  Friends Service                0.1000
+  Event Bus                      0.0973
+  Notification Service           0.0950
+  Telemetry Collector            0.0941
+  Player Stats Service           0.0886
+  Achievement Service            0.0876
+  Mission Service                0.0817
+  Moderation Service             0.0681
+  Campaign Progress Service      0.0671
+  Asset Store Service            0.0667
+  Patch Distribution Service     0.0667
+  Load Balancer                  0.0635
+  Game Server NA                 0.0595
+  Game Server AP                 0.0595
+  Game Server EU                 0.0595
+  Presence Service               0.0550
+  Service Discovery              0.0537
+  Config Service                 0.0519
+  Payment Gateway                0.0510
+  Requisition Service            0.0501
+  Incident Alert Service         0.0500
+  Squad Service                  0.0438
+  Armory Service                 0.0433
+  Analytics Pipeline             0.0433
+  Party Service                  0.0431
+  CDN Network                    0.0421
+  Platform Service               0.0412
+  Leaderboard Service            0.0407
+  Session Manager                0.0407
+  Auth Service                   0.0403
+  Challenge Service              0.0388
+  DDoS Protection                0.0336
+  Store Service                  0.0320
+  Eternal War Service            0.0310
+  Operations Service             0.0262
+  API Gateway                    0.0243
+  DNS                            0.0000
+  Chapter Selector Service       0.0000
+  Monitoring Service             0.0000
+  News Feed Service              0.0000
+  Battle Pass Service            0.0000
+  Voice Chat Service             0.0000
+  Report Service                 0.0000

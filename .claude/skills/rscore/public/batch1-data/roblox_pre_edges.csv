@@ -1,0 +1,138 @@
+Type,From,To
+Dependency,DDoS Protection,DNS Service
+Dependency,Load Balancer NA,DDoS Protection
+Dependency,Load Balancer EU,DDoS Protection
+Dependency,Load Balancer AP,DDoS Protection
+Dependency,CDN Network,DDoS Protection
+Dependency,API Gateway,Load Balancer NA
+Dependency,API Gateway,Auth Service
+Dependency,API Gateway,Service Discovery
+Dependency,API Gateway,Game Discovery Service
+Dependency,API Gateway,Marketplace Service
+Dependency,Auth Service,Account Service
+Dependency,Auth Service,Session Manager
+Dependency,Auth Service,Secret Management Service
+Dependency,Auth Service,Age Verification Service
+Dependency,Avatar Service,Account Service
+Dependency,Avatar Service,Asset Service
+Dependency,Friends Service,Account Service
+Dependency,Friends Service,Presence Service
+Dependency,Group Service,Account Service
+Dependency,Chat Service,Safety Filter
+Dependency,Chat Service,Presence Service
+Dependency,Notification Service,Event Bus
+Dependency,Robux Service,Account Service
+Dependency,Marketplace Service,Catalog Service
+Dependency,Marketplace Service,Robux Service
+Dependency,Trade Service,Account Service
+Dependency,Trade Service,Robux Service
+Dependency,Premium Subscription Service,Account Service
+Dependency,Premium Subscription Service,Robux Service
+Dependency,Developer Exchange Service,Account Service
+Dependency,Payment Gateway,Robux Service
+Dependency,Payment Gateway,Secret Management Service
+Dependency,Game Server Manager,Game Server NA
+Dependency,Game Server Manager,Game Server EU
+Dependency,Game Server Manager,Game Server AP
+Dependency,Game Server NA,Game State Service
+Dependency,Game Server EU,Game State Service
+Dependency,Game Server AP,Game State Service
+Dependency,Game Server NA,Safety Filter
+Dependency,Game Server EU,Safety Filter
+Dependency,Game Server AP,Safety Filter
+Dependency,Leaderboard Service,Game State Service
+Dependency,Badge Service,Game State Service
+Dependency,Game Pass Service,Account Service
+Dependency,Game Pass Service,Catalog Service
+Dependency,Asset Service,CDN Network
+Dependency,Content Delivery Service,Asset Service
+Dependency,Studio Backend,Asset Service
+Dependency,Game Discovery Service,Catalog Service
+Dependency,Catalog Service,Account Service
+Dependency,Moderation Service,Account Service
+Dependency,Player Report Service,Moderation Service
+Dependency,Safety Filter,Moderation Service
+Dependency,Telemetry Collector,Game Server NA
+Dependency,Analytics Pipeline,Telemetry Collector
+Dependency,Log Aggregation,Telemetry Collector
+Dependency,Monitoring Service,Log Aggregation
+Dependency,Incident Alert Service,Monitoring Service
+Dependency,Feature Flags,Config Service
+Hosted-on,DNS Service,AWS Route 53
+Hosted-on,Service Discovery,AWS Route 53
+Hosted-on,CDN Network,AWS CloudFront
+Hosted-on,Content Delivery Service,AWS CloudFront
+Hosted-on,Content Delivery Service,AWS S3 Storage
+Hosted-on,Content Delivery Service,AWS Compute Services
+Hosted-on,Load Balancer NA,AWS ALB
+Hosted-on,Load Balancer EU,AWS ALB
+Hosted-on,Load Balancer AP,AWS ALB
+Hosted-on,Load Balancer NA,AWS WAF
+Hosted-on,API Gateway,AWS WAF
+Hosted-on,DDoS Protection,AWS Shield Standard
+Hosted-on,API Gateway,AWS Shield Standard
+Hosted-on,API Gateway,AWS Compute Services
+Hosted-on,Auth Service,AWS Secrets Manager
+Hosted-on,Auth Service,AWS Compute Services
+Hosted-on,Secret Management Service,AWS Secrets Manager
+Hosted-on,Account Service,AWS DynamoDB On-Demand
+Hosted-on,Account Service,AWS Compute Services
+Hosted-on,Session Manager,AWS ElastiCache Single Node
+Hosted-on,Session Manager,AWS Compute Services
+Hosted-on,Age Verification Service,AWS Compute Services
+Hosted-on,Game Server NA,Roblox Co-location Single DC
+Hosted-on,Game Server EU,Roblox Co-location Single DC
+Hosted-on,Game Server AP,Roblox Co-location Single DC
+Hosted-on,Studio Backend,Roblox Co-location Single DC
+Hosted-on,Studio Backend,AWS Compute Services
+Hosted-on,Game Server Manager,AWS Compute Services
+Hosted-on,Avatar Service,AWS DynamoDB On-Demand
+Hosted-on,Avatar Service,AWS Compute Services
+Hosted-on,Asset Service,AWS S3 Storage
+Hosted-on,Asset Service,AWS Compute Services
+Hosted-on,Catalog Service,MongoDB Atlas M30+
+Hosted-on,Catalog Service,AWS Compute Services
+Hosted-on,Friends Service,AWS DynamoDB On-Demand
+Hosted-on,Friends Service,AWS Compute Services
+Hosted-on,Chat Service,AWS Compute Services
+Hosted-on,Group Service,AWS Compute Services
+Hosted-on,Notification Service,AWS EventBridge
+Hosted-on,Notification Service,AWS Compute Services
+Hosted-on,Presence Service,AWS ElastiCache Single Node
+Hosted-on,Presence Service,AWS Compute Services
+Hosted-on,Feed Service,AWS Compute Services
+Hosted-on,Safety Filter,AWS Compute Services
+Hosted-on,Robux Service,AWS DynamoDB On-Demand
+Hosted-on,Robux Service,AWS Compute Services
+Hosted-on,Marketplace Service,AWS Compute Services
+Hosted-on,Trade Service,AWS Compute Services
+Hosted-on,Premium Subscription Service,AWS Compute Services
+Hosted-on,Premium Subscription Service,Stripe Payments
+Hosted-on,Developer Exchange Service,AWS Compute Services
+Hosted-on,Payment Gateway,AWS Compute Services
+Hosted-on,Payment Gateway,Stripe Payments
+Hosted-on,Moderation Service,AWS Compute Services
+Hosted-on,Player Report Service,AWS Compute Services
+Hosted-on,Game Discovery Service,AWS Compute Services
+Hosted-on,Badge Service,MongoDB Atlas M30+
+Hosted-on,Badge Service,AWS Compute Services
+Hosted-on,Game Pass Service,AWS Compute Services
+Hosted-on,Leaderboard Service,AWS Compute Services
+Hosted-on,Game State Service,AWS Compute Services
+Hosted-on,Telemetry Collector,AWS Kinesis Stream
+Hosted-on,Telemetry Collector,Datadog Pro
+Hosted-on,Telemetry Collector,AWS Compute Services
+Hosted-on,Analytics Pipeline,AWS Kinesis Stream
+Hosted-on,Analytics Pipeline,AWS S3 Storage
+Hosted-on,Analytics Pipeline,AWS Compute Services
+Hosted-on,Event Bus,AWS EventBridge
+Hosted-on,Event Bus,AWS Compute Services
+Hosted-on,Log Aggregation,AWS CloudWatch
+Hosted-on,Log Aggregation,AWS Compute Services
+Hosted-on,Monitoring Service,AWS CloudWatch
+Hosted-on,Monitoring Service,Datadog Pro
+Hosted-on,Monitoring Service,PagerDuty
+Hosted-on,Incident Alert Service,PagerDuty
+Hosted-on,Incident Alert Service,AWS Compute Services
+Hosted-on,Config Service,AWS Compute Services
+Hosted-on,Feature Flags,AWS Compute Services

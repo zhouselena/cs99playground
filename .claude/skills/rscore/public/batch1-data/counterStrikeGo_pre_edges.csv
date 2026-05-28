@@ -1,0 +1,152 @@
+Type,From,To
+Hosted-on,Game Server NA,Valve Servers
+Hosted-on,Game Server EU,Valve Servers
+Hosted-on,Game Server AP,Valve Servers
+Hosted-on,Game Server SA,Valve Servers
+Hosted-on,Game Coordinator,Valve Servers
+Hosted-on,Load Balancer,Steam SDR
+Hosted-on,Game Coordinator,Steam SDR
+Hosted-on,CDN Network,Akamai
+Hosted-on,Content Delivery Service,Akamai
+Hosted-on,Patch Distribution Service,Akamai
+Hosted-on,Steam Auth Service,AWS Compute
+Hosted-on,Steam Account Service,AWS Compute
+Hosted-on,Session Manager,AWS Compute
+Hosted-on,Player Profile Service,AWS Compute
+Hosted-on,Inventory Service,AWS Compute
+Hosted-on,Matchmaking Service,AWS Compute
+Hosted-on,Party Service,AWS Compute
+Hosted-on,Friends Service,AWS Compute
+Hosted-on,Game State Service,AWS Compute
+Hosted-on,Match History Service,AWS Compute
+Hosted-on,Premier Rank Service,AWS Compute
+Hosted-on,VAC Service,AWS Compute
+Hosted-on,Overwatch Service,AWS Compute
+Hosted-on,Workshop Service,AWS Compute
+Hosted-on,Steam Market Service,AWS Compute
+Hosted-on,Item Trading Service,AWS Compute
+Hosted-on,Store Service,AWS Compute
+Hosted-on,Payment Gateway,AWS Compute
+Hosted-on,Notification Service,AWS Compute
+Hosted-on,Chat Service,AWS Compute
+Hosted-on,Voice Chat Service,AWS Compute
+Hosted-on,Analytics Pipeline,AWS Compute
+Hosted-on,Telemetry Collector,AWS Compute
+Hosted-on,Monitoring Service,AWS Compute
+Hosted-on,Incident Alert Service,AWS Compute
+Hosted-on,Config Service,AWS Compute
+Hosted-on,Service Discovery,AWS Compute
+Hosted-on,Community Server Hub,AWS Compute
+Hosted-on,Map Service,AWS Compute
+Hosted-on,Match Replay Service,AWS Compute
+Hosted-on,Leaderboard Service,AWS Compute
+Hosted-on,Player Stats Service,AWS Compute
+Hosted-on,Skin Inspect Service,AWS Compute
+Hosted-on,Operation Pass Service,AWS Compute
+Hosted-on,Trust Factor Service,AWS Compute
+Hosted-on,Report Service,AWS Compute
+Hosted-on,Player Profile Service,Azure Player DB
+Hosted-on,Steam Account Service,Azure Player DB
+Hosted-on,Friends Service,Azure Player DB
+Hosted-on,Inventory Service,Azure Player DB
+Hosted-on,Match History Service,AWS Stats DB
+Hosted-on,Premier Rank Service,AWS Stats DB
+Hosted-on,Leaderboard Service,AWS Stats DB
+Hosted-on,Session Manager,AWS Cache
+Hosted-on,Matchmaking Service,AWS Cache
+Hosted-on,Trust Factor Service,AWS Cache
+Hosted-on,DDoS Protection,AWS DDoS Shield
+Hosted-on,API Gateway,AWS DDoS Shield
+Hosted-on,CDN Network,AWS CDN
+Hosted-on,Content Delivery Service,AWS CDN
+Hosted-on,Load Balancer,AWS Load Balancer
+Hosted-on,API Gateway,AWS Load Balancer
+Hosted-on,DNS,AWS DNS
+Hosted-on,Load Balancer,AWS DNS
+Hosted-on,Event Bus,AWS Event Bus
+Hosted-on,Notification Service,AWS Event Bus
+Hosted-on,API Gateway,AWS WAF
+Hosted-on,DDoS Protection,AWS WAF
+Hosted-on,Content Delivery Service,AWS Object Storage
+Hosted-on,Asset Store Service,AWS Object Storage
+Hosted-on,Monitoring Service,AWS Metrics
+Hosted-on,Telemetry Collector,AWS Metrics
+Hosted-on,Monitoring Service,Datadog APM
+Hosted-on,Telemetry Collector,Datadog APM
+Hosted-on,Monitoring Service,PagerDuty Alerts
+Hosted-on,Incident Alert Service,PagerDuty Alerts
+Hosted-on,Payment Gateway,Stripe Payments
+Hosted-on,Store Service,Stripe Payments
+Dependency,DNS,Load Balancer
+Dependency,DNS,DDoS Protection
+Dependency,DDoS Protection,Load Balancer
+Dependency,Load Balancer,API Gateway
+Dependency,API Gateway,Steam Auth Service
+Dependency,API Gateway,Steam Account Service
+Dependency,API Gateway,Matchmaking Service
+Dependency,API Gateway,Store Service
+Dependency,API Gateway,Friends Service
+Dependency,API Gateway,Steam Market Service
+Dependency,Steam Auth Service,Steam Account Service
+Dependency,Steam Auth Service,Session Manager
+Dependency,Session Manager,Player Profile Service
+Dependency,Steam Account Service,Player Profile Service
+Dependency,Game Coordinator,Game Server NA
+Dependency,Game Coordinator,Game Server EU
+Dependency,Game Coordinator,Game Server AP
+Dependency,Game Coordinator,Game Server SA
+Dependency,Game Coordinator,Matchmaking Service
+Dependency,Game Coordinator,Game State Service
+Dependency,Game Server NA,Game State Service
+Dependency,Game Server EU,Game State Service
+Dependency,Game Server AP,Game State Service
+Dependency,Game Server NA,VAC Service
+Dependency,Game Server EU,VAC Service
+Dependency,Game Server AP,VAC Service
+Dependency,Game Server NA,Telemetry Collector
+Dependency,Game Server EU,Telemetry Collector
+Dependency,Game Server AP,Telemetry Collector
+Dependency,Matchmaking Service,Game State Service
+Dependency,Matchmaking Service,Trust Factor Service
+Dependency,Party Service,Friends Service
+Dependency,Party Service,Matchmaking Service
+Dependency,Voice Chat Service,Party Service
+Dependency,Friends Service,Steam Account Service
+Dependency,Player Profile Service,Inventory Service
+Dependency,Player Profile Service,Player Stats Service
+Dependency,Player Stats Service,Premier Rank Service
+Dependency,Player Stats Service,Leaderboard Service
+Dependency,Game State Service,Match History Service
+Dependency,Match History Service,Player Stats Service
+Dependency,VAC Service,Steam Account Service
+Dependency,VAC Service,Report Service
+Dependency,Report Service,Overwatch Service
+Dependency,Overwatch Service,Steam Account Service
+Dependency,Steam Market Service,Inventory Service
+Dependency,Steam Market Service,Item Trading Service
+Dependency,Steam Market Service,Payment Gateway
+Dependency,Item Trading Service,Inventory Service
+Dependency,Item Trading Service,Steam Account Service
+Dependency,Store Service,Inventory Service
+Dependency,Store Service,Payment Gateway
+Dependency,Store Service,CDN Network
+Dependency,Payment Gateway,Steam Account Service
+Dependency,Skin Inspect Service,Inventory Service
+Dependency,Operation Pass Service,Player Profile Service
+Dependency,Operation Pass Service,Inventory Service
+Dependency,Workshop Service,CDN Network
+Dependency,Workshop Service,Map Service
+Dependency,Map Service,Game Coordinator
+Dependency,Community Server Hub,Map Service
+Dependency,Event Bus,Analytics Pipeline
+Dependency,Event Bus,Notification Service
+Dependency,Analytics Pipeline,Telemetry Collector
+Dependency,Telemetry Collector,Game State Service
+Dependency,Monitoring Service,Incident Alert Service
+Dependency,Monitoring Service,Config Service
+Dependency,Config Service,Service Discovery
+Dependency,Service Discovery,Matchmaking Service
+Dependency,CDN Network,Content Delivery Service
+Dependency,Content Delivery Service,Patch Distribution Service
+Dependency,Content Delivery Service,Asset Store Service
+Dependency,Match Replay Service,Match History Service

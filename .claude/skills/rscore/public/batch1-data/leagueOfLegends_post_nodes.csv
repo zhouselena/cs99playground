@@ -1,0 +1,70 @@
+Node,Type,Provider,Service Tier
+Riot Direct Network,Functional,,
+LoL Client,Functional,,
+Riot Sign On (RSO),Functional,,
+OpenContrail SDN,Functional,,
+Champion Select Service,Functional,,
+Matchmaking Queue NA,Functional,,
+Matchmaking Queue EU,Functional,,
+Matchmaking Queue KR,Functional,,
+Ranked LP Service,Functional,,
+Game Server NA-1,Functional,,
+Game Server NA-2,Functional,,
+Game Server EU-1,Functional,,
+Game Server EU-2,Functional,,
+Game Server KR-1,Functional,,
+Game Server Manager,Functional,,
+Spectator Service,Functional,,
+End of Game Stats Service,Functional,,
+Summoner Profile Service,Functional,,
+Champion Data Service,Functional,,
+Mastery Service,Functional,,
+Hextech Loot Service,Functional,,
+Store Service,Functional,,
+Clash Service,Functional,,
+Esports Data Service,Functional,,
+Chat Service,Functional,,
+Friends Service,Functional,,
+Presence Service,Functional,,
+Global Load Balancer,Functional,,
+Regional Load Balancer NA,Functional,,
+Regional Load Balancer EU,Functional,,
+Regional Load Balancer KR,Functional,,
+Patch Distribution Service,Functional,,
+API Gateway,Functional,,
+Event Bus,Functional,,
+Analytics Pipeline,Functional,,
+Player Telemetry Service,Functional,,
+Anti-Cheat Service,Functional,,
+Configuration Service,Functional,,
+DDoS Mitigation Layer,Functional,,
+Session Cache,Functional,,
+Notification Service,Functional,,
+Monitoring & Alerting,Functional,,
+Secret Management Service,Functional,,
+Replay Service,Functional,,
+Riot BGP Network,Provider,Riot Network,Riot Direct BGP
+Riot Private DC,Provider,Private Network,Co-location (multi-DC)
+AWS Compute NA,Provider,AWS Compute,ECS/EKS (Fargate multi-AZ)
+AWS Compute EU,Provider,AWS Compute,ECS/EKS (Fargate multi-AZ)
+AWS Compute KR,Provider,AWS Compute,ECS/EKS (Fargate multi-AZ)
+AWS GameLift Fleet,Provider,Amazon GameLift,GameLift (multi-region FleetIQ)
+AWS Aurora Player DB,Provider,AWS Database,Aurora Global Database
+AWS DynamoDB Game,Provider,AWS Database,DynamoDB Global Tables
+AWS MemoryDB Session,Provider,AWS Database,MemoryDB for Redis (multi-region)
+AWS CloudFront,Provider,AWS Networking & Edge,CloudFront CDN
+AWS Global Accelerator,Provider,AWS Networking & Edge,AWS Global Accelerator
+AWS NLB NA,Provider,AWS Networking & Edge,Network Load Balancer
+AWS NLB EU,Provider,AWS Networking & Edge,Network Load Balancer
+AWS NLB KR,Provider,AWS Networking & Edge,Network Load Balancer
+AWS Route 53,Provider,AWS Networking & Edge,Route 53 (Standard)
+AWS Kinesis Analytics,Provider,AWS Messaging & Queuing,Kinesis (multi-shard enhanced fanout)
+AWS MSK Events,Provider,AWS Messaging & Queuing,MSK (Managed Kafka multi-AZ)
+AWS S3 Assets,Provider,AWS Storage,S3 Standard
+AWS Shield Advanced,Provider,AWS Security,Shield Advanced
+AWS WAF,Provider,AWS Security,WAF (Managed Rules)
+AWS Secrets Manager,Provider,AWS Security,Secrets Manager
+AWS CloudWatch,Provider,AWS Observability,CloudWatch (Container Insights)
+Cloudflare Enterprise Edge,Provider,Cloudflare,Enterprise
+Cloudflare Magic Transit,Provider,Cloudflare,Magic Transit
+Datadog Observability,Provider,Datadog,Enterprise

@@ -1,0 +1,161 @@
+=== counterStrikeGo PRE ===
+=== Infrastructure Resilience Score: 0.6773 ===
+  Articulation Points Ratio      0.9559
+  Average Clustering Coefficient 0.2361
+  Average Tech Score             0.9294
+  Bounded Fielder Value          0.0356
+  Degree Entropy                 0.6643
+  Overall Betweenness Centrality 0.9773
+Recommendation: placeholder for recommendation
+
+=== Node Criticality Scores ===
+  AWS Compute                    0.5366
+  CDN Network                    0.3695
+  Content Delivery Service       0.3302
+  Valve Servers                  0.2492
+  AWS Cache                      0.2475
+  AWS DDoS Shield                0.1933
+  Azure Player DB                0.1930
+  Steam SDR                      0.1858
+  AWS Stats DB                   0.1830
+  AWS Metrics                    0.1753
+  Akamai                         0.1725
+  AWS WAF                        0.1708
+  Datadog APM                    0.1708
+  AWS Event Bus                  0.1633
+  AWS Load Balancer              0.1633
+  PagerDuty Alerts               0.1633
+  AWS DNS                        0.1603
+  AWS CDN                        0.1558
+  AWS Object Storage             0.1558
+  Stripe Payments                0.1513
+  Game State Service             0.1402
+  Steam Account Service          0.1352
+  Inventory Service              0.1336
+  Matchmaking Service            0.0941
+  Telemetry Collector            0.0913
+  VAC Service                    0.0891
+  Map Service                    0.0841
+  Player Profile Service         0.0815
+  Player Stats Service           0.0734
+  Match History Service          0.0724
+  Friends Service                0.0677
+  Payment Gateway                0.0675
+  Asset Store Service            0.0667
+  Patch Distribution Service     0.0667
+  Game Server SA                 0.0667
+  Load Balancer                  0.0623
+  Service Discovery              0.0514
+  Config Service                 0.0508
+  Analytics Pipeline             0.0508
+  Report Service                 0.0506
+  Overwatch Service              0.0506
+  Leaderboard Service            0.0506
+  Premier Rank Service           0.0506
+  Notification Service           0.0500
+  Incident Alert Service         0.0500
+  Trust Factor Service           0.0500
+  Party Service                  0.0411
+  Steam Auth Service             0.0404
+  Session Manager                0.0403
+  Item Trading Service           0.0402
+  DDoS Protection                0.0402
+  Game Server EU                 0.0344
+  Game Server NA                 0.0344
+  Game Server AP                 0.0344
+  Steam Market Service           0.0340
+  Store Service                  0.0315
+  Game Coordinator               0.0259
+  API Gateway                    0.0252
+  Monitoring Service             0.0000
+  Workshop Service               0.0000
+  Voice Chat Service             0.0000
+  Event Bus                      0.0000
+  DNS                            0.0000
+  Chat Service                   0.0000
+  Operation Pass Service         0.0000
+  Skin Inspect Service           0.0000
+  Match Replay Service           0.0000
+  Community Server Hub           0.0000
+
+=== counterStrikeGo POST ===
+=== Infrastructure Resilience Score: 0.6839 ===
+  Articulation Points Ratio      0.9714
+  Average Clustering Coefficient 0.2207
+  Average Tech Score             0.9491
+  Bounded Fielder Value          0.0544
+  Degree Entropy                 0.6755
+  Overall Betweenness Centrality 0.9565
+Recommendation: placeholder for recommendation
+
+=== Node Criticality Scores ===
+  CDN Network                    0.3934
+  Content Delivery Service       0.3308
+  AWS Compute                    0.2276
+  Valve Servers                  0.2117
+  AWS Cache                      0.1950
+  Akamai                         0.1725
+  Azure Player DB                0.1720
+  AWS Metrics                    0.1708
+  AWS WAF                        0.1708
+  AWS Stats DB                   0.1650
+  AWS Event Bus                  0.1633
+  AWS Load Balancer              0.1633
+  PagerDuty Alerts               0.1633
+  Datadog APM                    0.1603
+  AWS DNS                        0.1603
+  AWS CDN                        0.1558
+  AWS Object Storage             0.1558
+  Steam SDR                      0.1558
+  Game State Service             0.1548
+  AWS Accelerator                0.1528
+  AWS DDoS Shield                0.1528
+  Stripe Payments                0.1513
+  Cloudflare Edge                0.1513
+  Steam Account Service          0.1348
+  Inventory Service              0.1336
+  VAC Service                    0.1141
+  Player Profile Service         0.1096
+  Telemetry Collector            0.1054
+  Matchmaking Service            0.1000
+  Friends Service                0.0871
+  Map Service                    0.0835
+  Event Bus                      0.0752
+  Player Stats Service           0.0750
+  Match History Service          0.0724
+  Payment Gateway                0.0674
+  Asset Store Service            0.0667
+  Patch Distribution Service     0.0667
+  Load Balancer                  0.0560
+  Analytics Pipeline             0.0542
+  Service Discovery              0.0527
+  Config Service                 0.0513
+  Report Service                 0.0507
+  Premier Rank Service           0.0506
+  Notification Service           0.0500
+  Incident Alert Service         0.0500
+  Leaderboard Service            0.0422
+  Trust Factor Service           0.0421
+  Party Service                  0.0416
+  API Gateway                    0.0415
+  Overwatch Service              0.0407
+  Steam Auth Service             0.0404
+  Session Manager                0.0403
+  Item Trading Service           0.0402
+  Steam Market Service           0.0341
+  Game Server SA                 0.0339
+  Game Server NA                 0.0339
+  Game Server EU                 0.0339
+  Game Server AP                 0.0339
+  DDoS Protection                0.0336
+  Store Service                  0.0322
+  Game Coordinator               0.0255
+  Chat Service                   0.0000
+  Match Replay Service           0.0000
+  Workshop Service               0.0000
+  Community Server Hub           0.0000
+  DNS                            0.0000
+  Voice Chat Service             0.0000
+  Skin Inspect Service           0.0000
+  Monitoring Service             0.0000
+  Operation Pass Service         0.0000

@@ -1,0 +1,170 @@
+=== valorant PRE ===
+=== Infrastructure Resilience Score: 0.6265 ===
+  Articulation Points Ratio      0.8028
+  Average Clustering Coefficient 0.1105
+  Average Tech Score             0.9254
+  Bounded Fielder Value          0.0195
+  Degree Entropy                 0.6751
+  Overall Betweenness Centrality 0.9840
+Recommendation: placeholder for recommendation
+
+=== Node Criticality Scores ===
+  AWS Compute US-East            0.5306
+  NA Colocation                  0.4950
+  Riot Direct                    0.4530
+  Event Bus                      0.4207
+  Secret Management              0.4016
+  Telemetry Collector            0.3817
+  Log Aggregation                0.3668
+  DDoS Protection Layer          0.3506
+  DNS Gateway                    0.3505
+  Game Server EU                 0.3505
+  Monitoring Service             0.3409
+  Asset CDN Service              0.3402
+  Incident Alert Service         0.3000
+  API Gateway                    0.3000
+  AWS ElastiCache Single Node    0.2575
+  AWS DynamoDB                   0.1900
+  AWS Aurora Single Region       0.1830
+  AP Colocation                  0.1783
+  AWS Shield Standard            0.1600
+  AWS S3 Storage                 0.1558
+  AWS CloudFront                 0.1558
+  EU Colocation                  0.1450
+  AWS WAF                        0.1375
+  AWS Kinesis Stream             0.1375
+  AWS CloudWatch                 0.1375
+  Datadog Pro                    0.1375
+  AWS EventBridge                0.1300
+  AWS Application Load Balancer  0.1300
+  PagerDuty                      0.1300
+  AWS Secrets Manager            0.1300
+  Anti-Cheat Validation          0.1285
+  AWS Route 53                   0.1270
+  Riot Direct BGP Provider       0.1225
+  Player Profile Service         0.1222
+  Game Server NA                 0.1175
+  Auth Service                   0.1167
+  Skill Rating Service           0.1000
+  Riot Account Service           0.0895
+  Inventory Service              0.0872
+  Social Friends Service         0.0680
+  Global Load Balancer           0.0670
+  Store Service                  0.0574
+  Matchmaking Service            0.0574
+  Vanguard Anti-Cheat Backend    0.0517
+  Party Service                  0.0509
+  Game State Cache               0.0506
+  Player Behavior Service        0.0506
+  Game Server AP                 0.0505
+  Competitive Rank Service       0.0500
+  Game Session Manager           0.0487
+  Chat Service                   0.0407
+  Notification Service           0.0402
+  Cloudflare Business            0.0375
+  Stats Aggregation Service      0.0350
+  Transaction Service            0.0259
+  Game Server KR                 0.0000
+  Session Token Service          0.0000
+  Premier Tournament Service     0.0000
+  Network Quality Monitor        0.0000
+  Content Delivery               0.0000
+  Payment Gateway                0.0000
+  Leaderboard Service            0.0000
+  Feature Flags                  0.0000
+  Player Report Service          0.0000
+  Voice Chat Service             0.0000
+  Battle Pass Service            0.0000
+  Spectator Service              0.0000
+  Game Server BR                 0.0000
+  Analytics Pipeline             0.0000
+  Replay Storage Service         0.0000
+  Config Service                 0.0000
+
+=== valorant POST ===
+=== Infrastructure Resilience Score: 0.6323 ===
+  Articulation Points Ratio      0.8158
+  Average Clustering Coefficient 0.1078
+  Average Tech Score             0.9320
+  Bounded Fielder Value          0.0243
+  Degree Entropy                 0.6951
+  Overall Betweenness Centrality 0.9785
+Recommendation: placeholder for recommendation
+
+=== Node Criticality Scores ===
+  AWS Compute US-East            0.5261
+  Riot Direct                    0.4527
+  Event Bus                      0.4509
+  Secret Management              0.4215
+  Log Aggregation                0.3668
+  Telemetry Collector            0.3594
+  DNS Gateway                    0.3504
+  Global Load Balancer           0.3504
+  Monitoring Service             0.3410
+  DDoS Protection Layer          0.3406
+  Asset CDN Service              0.3402
+  API Gateway                    0.3000
+  Analytics Pipeline             0.3000
+  Incident Alert Service         0.3000
+  AWS ElastiCache Cluster        0.2050
+  NA Colocation                  0.1950
+  AWS Compute EU-West            0.1830
+  EU Colocation                  0.1783
+  AP Colocation                  0.1783
+  AWS DynamoDB Global Tables     0.1705
+  AWS Compute AP-Southeast       0.1663
+  AWS Aurora Global              0.1650
+  AWS CloudFront                 0.1558
+  AWS S3 Storage                 0.1558
+  AWS Kinesis Stream             0.1375
+  AWS WAF                        0.1375
+  AWS MSK Kafka                  0.1375
+  AWS CloudWatch                 0.1375
+  AWS Secrets Manager            0.1300
+  AWS EventBridge                0.1300
+  PagerDuty                      0.1300
+  AWS Application Load Balancer  0.1300
+  Player Profile Service         0.1296
+  Anti-Cheat Validation          0.1283
+  Datadog Enterprise             0.1270
+  AWS Route 53                   0.1270
+  Riot Direct BGP Provider       0.1225
+  Cloudflare Magic Transit       0.1225
+  AWS Shield Advanced            0.1195
+  AWS Global Accelerator         0.1195
+  Game Server EU                 0.1161
+  Game Server AP                 0.1158
+  Game Server NA                 0.1158
+  Skill Rating Service           0.1000
+  Auth Service                   0.0980
+  Riot Account Service           0.0904
+  Inventory Service              0.0872
+  Party Service                  0.0817
+  Competitive Rank Service       0.0693
+  Social Friends Service         0.0686
+  Feature Flags                  0.0667
+  Stats Aggregation Service      0.0628
+  Chat Service                   0.0585
+  Game State Cache               0.0582
+  Store Service                  0.0574
+  Vanguard Anti-Cheat Backend    0.0515
+  Game Server KR                 0.0504
+  Game Server BR                 0.0504
+  Matchmaking Service            0.0495
+  Game Session Manager           0.0409
+  Notification Service           0.0402
+  Player Behavior Service        0.0343
+  Transaction Service            0.0258
+  Cloudflare Enterprise          0.0180
+  Battle Pass Service            0.0000
+  Premier Tournament Service     0.0000
+  Content Delivery               0.0000
+  Payment Gateway                0.0000
+  Session Token Service          0.0000
+  Player Report Service          0.0000
+  Config Service                 0.0000
+  Network Quality Monitor        0.0000
+  Spectator Service              0.0000
+  Leaderboard Service            0.0000
+  Voice Chat Service             0.0000
+  Replay Storage Service         0.0000

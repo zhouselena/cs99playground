@@ -1,0 +1,167 @@
+Type,From,To
+Hosted-on,Auth Service,AWS Compute
+Hosted-on,Focus Account Service,AWS Compute
+Hosted-on,Session Manager,AWS Compute
+Hosted-on,Matchmaking Service,AWS Compute
+Hosted-on,Party Service,AWS Compute
+Hosted-on,Squad Service,AWS Compute
+Hosted-on,Friends Service,AWS Compute
+Hosted-on,Operations Service,AWS Compute
+Hosted-on,Eternal War Service,AWS Compute
+Hosted-on,Mission Service,AWS Compute
+Hosted-on,Chapter Selector Service,AWS Compute
+Hosted-on,Armory Service,AWS Compute
+Hosted-on,Requisition Service,AWS Compute
+Hosted-on,Battle Pass Service,AWS Compute
+Hosted-on,Store Service,AWS Compute
+Hosted-on,Voice Chat Service,AWS Compute
+Hosted-on,Notification Service,AWS Compute
+Hosted-on,Analytics Pipeline,AWS Compute
+Hosted-on,Telemetry Collector,AWS Compute
+Hosted-on,Monitoring Service,AWS Compute
+Hosted-on,Incident Alert Service,AWS Compute
+Hosted-on,Leaderboard Service,AWS Compute
+Hosted-on,Player Stats Service,AWS Compute
+Hosted-on,Achievement Service,AWS Compute
+Hosted-on,Config Service,AWS Compute
+Hosted-on,Service Discovery,AWS Compute
+Hosted-on,Presence Service,AWS Compute
+Hosted-on,Report Service,AWS Compute
+Hosted-on,Moderation Service,AWS Compute
+Hosted-on,News Feed Service,AWS Compute
+Hosted-on,Challenge Service,AWS Compute
+Hosted-on,Campaign Progress Service,AWS Compute
+Hosted-on,Platform Service,AWS Compute
+Hosted-on,Game Server NA,AWS Game Servers
+Hosted-on,Game Server EU,AWS Game Servers
+Hosted-on,Game Server AP,AWS Game Servers
+Hosted-on,Player Profile Service,AWS Player DB
+Hosted-on,Inventory Service,AWS Player DB
+Hosted-on,Friends Service,AWS Player DB
+Hosted-on,Armory Service,AWS Player DB
+Hosted-on,Campaign Progress Service,AWS Player DB
+Hosted-on,Player Stats Service,AWS Stats DB
+Hosted-on,Leaderboard Service,AWS Stats DB
+Hosted-on,Battle Pass Service,AWS Stats DB
+Hosted-on,Session Manager,AWS Cache
+Hosted-on,Matchmaking Service,AWS Cache
+Hosted-on,Presence Service,AWS Cache
+Hosted-on,CDN Network,Cloudflare Edge
+Hosted-on,DDoS Protection,Cloudflare Edge
+Hosted-on,DDoS Protection,AWS DDoS Shield
+Hosted-on,API Gateway,AWS DDoS Shield
+Hosted-on,CDN Network,AWS CDN
+Hosted-on,Content Delivery Service,AWS CDN
+Hosted-on,Load Balancer,AWS Accelerator
+Hosted-on,API Gateway,AWS Accelerator
+Hosted-on,Load Balancer,AWS Load Balancer
+Hosted-on,API Gateway,AWS Load Balancer
+Hosted-on,DNS,AWS DNS
+Hosted-on,Load Balancer,AWS DNS
+Hosted-on,Event Bus,AWS Event Bus
+Hosted-on,Notification Service,AWS Event Bus
+Hosted-on,Notification Service,AWS Notifications
+Hosted-on,Achievement Service,AWS Notifications
+Hosted-on,API Gateway,AWS WAF
+Hosted-on,DDoS Protection,AWS WAF
+Hosted-on,Content Delivery Service,AWS Object Storage
+Hosted-on,Patch Distribution Service,AWS Object Storage
+Hosted-on,Asset Store Service,AWS Object Storage
+Hosted-on,Monitoring Service,AWS Metrics
+Hosted-on,Telemetry Collector,AWS Metrics
+Hosted-on,Monitoring Service,Datadog APM
+Hosted-on,Telemetry Collector,Datadog APM
+Hosted-on,Monitoring Service,PagerDuty Alerts
+Hosted-on,Incident Alert Service,PagerDuty Alerts
+Hosted-on,Payment Gateway,Stripe Payments
+Hosted-on,Store Service,Stripe Payments
+Hosted-on,Event Bus,AWS Queue
+Hosted-on,Analytics Pipeline,AWS Queue
+Dependency,DNS,Load Balancer
+Dependency,DNS,DDoS Protection
+Dependency,DDoS Protection,Load Balancer
+Dependency,Load Balancer,API Gateway
+Dependency,API Gateway,Auth Service
+Dependency,API Gateway,Focus Account Service
+Dependency,API Gateway,Matchmaking Service
+Dependency,API Gateway,Store Service
+Dependency,API Gateway,Friends Service
+Dependency,API Gateway,Notification Service
+Dependency,API Gateway,Platform Service
+Dependency,Auth Service,Focus Account Service
+Dependency,Auth Service,Session Manager
+Dependency,Session Manager,Player Profile Service
+Dependency,Focus Account Service,Player Profile Service
+Dependency,Platform Service,Player Profile Service
+Dependency,Platform Service,Achievement Service
+Dependency,Game Server NA,Game State Service
+Dependency,Game Server EU,Game State Service
+Dependency,Game Server AP,Game State Service
+Dependency,Game Server NA,Anti-Cheat Service
+Dependency,Game Server EU,Anti-Cheat Service
+Dependency,Game Server AP,Anti-Cheat Service
+Dependency,Game Server NA,Telemetry Collector
+Dependency,Game Server EU,Telemetry Collector
+Dependency,Game Server AP,Telemetry Collector
+Dependency,Operations Service,Game Server NA
+Dependency,Operations Service,Game Server EU
+Dependency,Operations Service,Game Server AP
+Dependency,Eternal War Service,Game Server NA
+Dependency,Eternal War Service,Game Server EU
+Dependency,Eternal War Service,Game Server AP
+Dependency,Operations Service,Matchmaking Service
+Dependency,Eternal War Service,Matchmaking Service
+Dependency,Operations Service,Mission Service
+Dependency,Operations Service,Content Delivery Service
+Dependency,Matchmaking Service,Game State Service
+Dependency,Party Service,Friends Service
+Dependency,Party Service,Squad Service
+Dependency,Squad Service,Operations Service
+Dependency,Squad Service,Eternal War Service
+Dependency,Voice Chat Service,Party Service
+Dependency,Player Profile Service,Inventory Service
+Dependency,Player Profile Service,Player Stats Service
+Dependency,Player Profile Service,Achievement Service
+Dependency,Player Profile Service,Campaign Progress Service
+Dependency,Inventory Service,Armory Service
+Dependency,Armory Service,Requisition Service
+Dependency,Chapter Selector Service,Campaign Progress Service
+Dependency,Chapter Selector Service,Mission Service
+Dependency,Campaign Progress Service,Achievement Service
+Dependency,Friends Service,Focus Account Service
+Dependency,Presence Service,Friends Service
+Dependency,Report Service,Moderation Service
+Dependency,Moderation Service,Focus Account Service
+Dependency,Moderation Service,Anti-Cheat Service
+Dependency,Battle Pass Service,Inventory Service
+Dependency,Battle Pass Service,Player Stats Service
+Dependency,Battle Pass Service,Event Bus
+Dependency,Requisition Service,Inventory Service
+Dependency,Challenge Service,Player Stats Service
+Dependency,Challenge Service,Inventory Service
+Dependency,Challenge Service,Notification Service
+Dependency,Achievement Service,Inventory Service
+Dependency,Store Service,Inventory Service
+Dependency,Store Service,Payment Gateway
+Dependency,Store Service,CDN Network
+Dependency,Payment Gateway,Focus Account Service
+Dependency,Game State Service,Event Bus
+Dependency,Event Bus,Analytics Pipeline
+Dependency,Event Bus,Notification Service
+Dependency,Notification Service,Presence Service
+Dependency,Analytics Pipeline,Telemetry Collector
+Dependency,Telemetry Collector,Game State Service
+Dependency,Anti-Cheat Service,Focus Account Service
+Dependency,Anti-Cheat Service,Moderation Service
+Dependency,Player Stats Service,Leaderboard Service
+Dependency,Leaderboard Service,Player Profile Service
+Dependency,Player Stats Service,Challenge Service
+Dependency,CDN Network,Content Delivery Service
+Dependency,Content Delivery Service,Patch Distribution Service
+Dependency,Content Delivery Service,Asset Store Service
+Dependency,Config Service,Service Discovery
+Dependency,Service Discovery,Matchmaking Service
+Dependency,News Feed Service,Event Bus
+Dependency,Monitoring Service,Incident Alert Service
+Dependency,Monitoring Service,Config Service
+Dependency,Mission Service,Game State Service

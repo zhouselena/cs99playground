@@ -1,0 +1,161 @@
+=== roblox PRE ===
+=== Infrastructure Resilience Score: 0.6805 ===
+  Articulation Points Ratio      0.9853
+  Average Clustering Coefficient 0.1958
+  Average Tech Score             0.9296
+  Bounded Fielder Value          0.0517
+  Degree Entropy                 0.6505
+  Overall Betweenness Centrality 0.9925
+Recommendation: placeholder for recommendation
+
+=== Node Criticality Scores ===
+  AWS Compute Services           0.5369
+  Roblox Co-location Single DC   0.2425
+  AWS ElastiCache Single Node    0.2308
+  AWS Shield Standard            0.1933
+  AWS DynamoDB On-Demand         0.1900
+  AWS ALB                        0.1800
+  MongoDB Atlas M30+             0.1753
+  AWS CloudWatch                 0.1753
+  AWS S3 Storage                 0.1725
+  AWS Kinesis Stream             0.1708
+  AWS WAF                        0.1708
+  Datadog Pro                    0.1708
+  AWS EventBridge                0.1633
+  PagerDuty                      0.1633
+  AWS Secrets Manager            0.1633
+  AWS Route 53                   0.1603
+  Account Service                0.1588
+  AWS CloudFront                 0.1558
+  Stripe Payments                0.1513
+  Game State Service             0.1430
+  Safety Filter                  0.1168
+  DDoS Protection                0.1163
+  Robux Service                  0.1004
+  Secret Management Service      0.1001
+  Asset Service                  0.0872
+  Catalog Service                0.0862
+  Moderation Service             0.0819
+  Presence Service               0.0802
+  Game Server NA                 0.0692
+  DNS Service                    0.0674
+  Service Discovery              0.0667
+  Age Verification Service       0.0667
+  Config Service                 0.0667
+  Telemetry Collector            0.0598
+  CDN Network                    0.0515
+  Session Manager                0.0502
+  Game Discovery Service         0.0501
+  Event Bus                      0.0500
+  Log Aggregation                0.0415
+  Load Balancer NA               0.0402
+  Marketplace Service            0.0402
+  Game Server AP                 0.0402
+  Game Server EU                 0.0402
+  Monitoring Service             0.0343
+  Auth Service                   0.0255
+  Premium Subscription Service   0.0000
+  Game Server Manager            0.0000
+  Group Service                  0.0000
+  API Gateway                    0.0000
+  Feed Service                   0.0000
+  Game Pass Service              0.0000
+  Load Balancer EU               0.0000
+  Load Balancer AP               0.0000
+  Player Report Service          0.0000
+  Feature Flags                  0.0000
+  Developer Exchange Service     0.0000
+  Payment Gateway                0.0000
+  Trade Service                  0.0000
+  Avatar Service                 0.0000
+  Notification Service           0.0000
+  Incident Alert Service         0.0000
+  Studio Backend                 0.0000
+  Analytics Pipeline             0.0000
+  Leaderboard Service            0.0000
+  Chat Service                   0.0000
+  Badge Service                  0.0000
+  Content Delivery Service       0.0000
+  Friends Service                0.0000
+
+=== roblox POST ===
+=== Infrastructure Resilience Score: 0.6924 ===
+  Articulation Points Ratio      1.0000
+  Average Clustering Coefficient 0.1990
+  Average Tech Score             0.9469
+  Bounded Fielder Value          0.0571
+  Degree Entropy                 0.6873
+  Overall Betweenness Centrality 0.9904
+Recommendation: placeholder for recommendation
+
+=== Node Criticality Scores ===
+  AWS Compute Services           0.2279
+  Roblox Co-location             0.2050
+  AWS ElastiCache Cluster        0.1950
+  AWS ALB                        0.1800
+  MongoDB Atlas Global           0.1780
+  AWS S3 Storage                 0.1725
+  AWS CloudWatch                 0.1708
+  AWS WAF                        0.1708
+  AWS Kinesis Stream             0.1708
+  AWS DynamoDB Global            0.1705
+  AWS Global Accelerator         0.1695
+  AWS EventBridge                0.1633
+  PagerDuty                      0.1633
+  AWS Secrets Manager            0.1633
+  Account Service                0.1617
+  Datadog Enterprise             0.1603
+  AWS Route 53                   0.1603
+  AWS CloudFront                 0.1558
+  AWS Shield Advanced            0.1528
+  Stripe Payments                0.1513
+  Cloudflare Enterprise          0.1513
+  Game State Service             0.1258
+  Safety Filter                  0.1169
+  Robux Service                  0.1115
+  DDoS Protection                0.1022
+  Catalog Service                0.1006
+  Service Discovery              0.1002
+  Event Bus                      0.1001
+  Secret Management Service      0.1001
+  Asset Service                  0.0869
+  Moderation Service             0.0819
+  Presence Service               0.0804
+  CDN Network                    0.0684
+  Game Server EU                 0.0677
+  Game Server AP                 0.0677
+  Game Server NA                 0.0677
+  DNS Service                    0.0673
+  Age Verification Service       0.0667
+  Friends Service                0.0576
+  Config Service                 0.0501
+  Session Manager                0.0501
+  Telemetry Collector            0.0478
+  Log Aggregation                0.0419
+  Chat Service                   0.0404
+  Game Discovery Service         0.0403
+  Marketplace Service            0.0402
+  Monitoring Service             0.0345
+  Load Balancer NA               0.0337
+  Leaderboard Service            0.0337
+  Auth Service                   0.0254
+  Content Delivery Service       0.0000
+  Load Balancer AP               0.0000
+  Load Balancer EU               0.0000
+  Feature Flags                  0.0000
+  Group Service                  0.0000
+  API Gateway                    0.0000
+  Game Server Manager            0.0000
+  Game Pass Service              0.0000
+  Trade Service                  0.0000
+  Avatar Service                 0.0000
+  Badge Service                  0.0000
+  Player Report Service          0.0000
+  Studio Backend                 0.0000
+  Premium Subscription Service   0.0000
+  Notification Service           0.0000
+  Incident Alert Service         0.0000
+  Analytics Pipeline             0.0000
+  Payment Gateway                0.0000
+  Feed Service                   0.0000
+  Developer Exchange Service     0.0000

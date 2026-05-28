@@ -1,0 +1,69 @@
+Node,Type,Provider,Service Tier
+DNS Service,Functional,,
+DDoS Protection,Functional,,
+CDN Network,Functional,,
+Global Load Balancer,Functional,,
+API Gateway,Functional,,
+Auth Service,Functional,,
+EA Account Service,Functional,,
+Session Manager,Functional,,
+Game Server NA,Functional,,
+Game Server EU,Functional,,
+Game Server AP,Functional,,
+Game Server SA,Functional,,
+Game Server Manager,Functional,,
+Matchmaking Service,Functional,,
+Party Service,Functional,,
+Squad Service,Functional,,
+Lobby Service,Functional,,
+Game State Manager,Functional,,
+Legend Select Service,Functional,,
+Player Profile Service,Functional,,
+Player Stats Service,Functional,,
+Ranked Service,Functional,,
+Friends Service,Functional,,
+Presence Service,Functional,,
+Chat Service,Functional,,
+Voice Chat Service,Functional,,
+Notification Service,Functional,,
+Item Shop Service,Functional,,
+Battle Pass Service,Functional,,
+Inventory Service,Functional,,
+Cosmetics Service,Functional,,
+Apex Coins Service,Functional,,
+Payment Gateway,Functional,,
+Anti-Cheat Service,Functional,,
+Moderation Service,Functional,,
+Player Report Service,Functional,,
+Content Delivery Service,Functional,,
+Asset Service,Functional,,
+Game Update Service,Functional,,
+Telemetry Collector,Functional,,
+Analytics Pipeline,Functional,,
+Event Bus,Functional,,
+Log Aggregation,Functional,,
+Monitoring Service,Functional,,
+Incident Alert Service,Functional,,
+Config Service,Functional,,
+Feature Flags,Functional,,
+Secret Management Service,Functional,,
+Leaderboard Service,Functional,,
+Club Service,Functional,,
+AWS Route 53,Provider,AWS Networking & Edge,Route 53 (Standard)
+AWS CloudFront,Provider,AWS Networking & Edge,CloudFront CDN
+AWS ALB,Provider,AWS Networking & Edge,Application Load Balancer
+AWS Shield Standard,Provider,AWS Security,Shield Standard
+AWS WAF,Provider,AWS Security,WAF (Managed Rules)
+AWS Secrets Manager,Provider,AWS Security,Secrets Manager
+AWS Compute Services,Provider,AWS Compute,ECS/EKS (EC2-backed multi-AZ)
+EA Co-location Single DC,Provider,Private Network,Co-location (single DC)
+AWS DynamoDB On-Demand,Provider,AWS Database,DynamoDB (On-Demand)
+AWS Aurora Single Region,Provider,AWS Database,Aurora (Provisioned single region)
+AWS ElastiCache Single Node,Provider,AWS Database,ElastiCache (single node)
+AWS S3 Storage,Provider,AWS Storage,S3 Standard
+AWS Kinesis Stream,Provider,AWS Messaging & Queuing,Kinesis (multi-shard enhanced fanout)
+AWS EventBridge,Provider,AWS Messaging & Queuing,EventBridge
+AWS CloudWatch,Provider,AWS Observability,CloudWatch (standard)
+Datadog Pro,Provider,Datadog,Pro
+PagerDuty,Provider,PagerDuty,Incident Management
+Stripe Payments,Provider,Stripe,Payment Processing

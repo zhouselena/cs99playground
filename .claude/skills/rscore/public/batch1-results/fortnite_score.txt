@@ -1,0 +1,172 @@
+=== fortnite PRE ===
+=== Infrastructure Resilience Score: 0.6287 ===
+  Articulation Points Ratio      0.8194
+  Average Clustering Coefficient 0.1221
+  Average Tech Score             0.9321
+  Bounded Fielder Value          0.0160
+  Degree Entropy                 0.6358
+  Overall Betweenness Centrality 0.9833
+Recommendation: placeholder for recommendation
+
+=== Node Criticality Scores ===
+  AWS Compute Services           0.5353
+  AWS EC2 Game Fleet             0.5089
+  Secret Management              0.4004
+  Event Bus                      0.4003
+  Telemetry Collector            0.3833
+  DDoS Protection Layer          0.3813
+  DNS Service                    0.3672
+  Log Aggregation                0.3520
+  Monitoring Service             0.3511
+  Incident Alert Service         0.3000
+  Payment Gateway                0.3000
+  API Gateway                    0.3000
+  Notification Service           0.3000
+  AWS ElastiCache Single Node    0.2475
+  AWS DynamoDB                   0.2014
+  AWS MemoryDB Single Region     0.1860
+  AWS Aurora Single Region       0.1830
+  AWS S3 Storage                 0.1825
+  AWS ALB                        0.1633
+  AWS Shield Standard            0.1600
+  AWS CloudFront                 0.1558
+  AWS CloudWatch                 0.1420
+  AWS Kinesis Stream             0.1375
+  Datadog Pro                    0.1375
+  AWS WAF                        0.1375
+  AWS SQS                        0.1330
+  AWS Secrets Manager            0.1300
+  PagerDuty                      0.1300
+  AWS EventBridge                0.1300
+  AWS Route 53                   0.1270
+  Stripe Payments                0.1180
+  Player Stats Service           0.1010
+  Player Profile Service         0.0950
+  Inventory Service              0.0801
+  Auth Service                   0.0769
+  Game Server NA                 0.0725
+  Friends Service                0.0679
+  Replay Service                 0.0674
+  Presence Service               0.0672
+  Anti-Cheat Service             0.0670
+  Session Token Store            0.0670
+  Game Server EU                 0.0668
+  Game Server AP                 0.0668
+  Game Server BR                 0.0668
+  Creative Mode Server           0.0668
+  Squad Service                  0.0667
+  Config Service                 0.0667
+  Moderation Service             0.0667
+  Lobby Service                  0.0588
+  Item Shop Service              0.0588
+  CDN Edge                       0.0509
+  Cloud Save Service             0.0508
+  Asset Service                  0.0508
+  Content Delivery Service       0.0505
+  Global Load Balancer           0.0503
+  Cosmetics Service              0.0503
+  Tournament Service             0.0500
+  Achievement Service            0.0500
+  Matchmaking Service            0.0431
+  Epic Account Service           0.0410
+  V-Bucks Service                0.0408
+  Game State Manager             0.0373
+  Voice Chat Service             0.0000
+  Analytics Pipeline             0.0000
+  Leaderboard Service            0.0000
+  Live Events Service            0.0000
+  Chat Service                   0.0000
+  Battle Pass Service            0.0000
+  Game Update Service            0.0000
+  Player Report Service          0.0000
+  OAuth Provider                 0.0000
+  Feature Flags                  0.0000
+
+=== fortnite POST ===
+=== Infrastructure Resilience Score: 0.6246 ===
+  Articulation Points Ratio      0.7922
+  Average Clustering Coefficient 0.0932
+  Average Tech Score             0.9394
+  Bounded Fielder Value          0.0180
+  Degree Entropy                 0.6690
+  Overall Betweenness Centrality 0.9847
+Recommendation: placeholder for recommendation
+
+=== Node Criticality Scores ===
+  AWS Compute Services           0.5263
+  Event Bus                      0.4203
+  Secret Management              0.4004
+  DDoS Protection Layer          0.3811
+  DNS Service                    0.3671
+  Telemetry Collector            0.3536
+  Monitoring Service             0.3512
+  Global Load Balancer           0.3503
+  Log Aggregation                0.3422
+  CDN Edge                       0.3410
+  Voice Chat Service             0.3000
+  API Gateway                    0.3000
+  Incident Alert Service         0.3000
+  Analytics Pipeline             0.3000
+  Notification Service           0.3000
+  Payment Gateway                0.3000
+  AWS EC2 Game Fleet             0.2089
+  AWS ElastiCache Cluster        0.1950
+  AWS S3 Storage                 0.1825
+  AWS DynamoDB Global            0.1819
+  AWS MemoryDB Multi-Region      0.1680
+  AWS Aurora Global              0.1650
+  AWS CloudFront                 0.1558
+  AWS OpenSearch                 0.1375
+  AWS MSK Kafka                  0.1375
+  AWS Kinesis Stream             0.1375
+  AWS WAF                        0.1375
+  AWS CloudWatch                 0.1375
+  Anti-Cheat Service             0.1338
+  AWS SQS                        0.1330
+  AWS ALB                        0.1300
+  PagerDuty                      0.1300
+  AWS Secrets Manager            0.1300
+  AWS EventBridge                0.1300
+  AWS NLB                        0.1270
+  AWS Route 53                   0.1270
+  Datadog Enterprise             0.1270
+  Squad Service                  0.1201
+  AWS Global Accelerator         0.1195
+  AWS Shield Advanced            0.1195
+  Cloudflare Enterprise          0.1180
+  Stripe Payments                0.1180
+  Player Stats Service           0.1155
+  Game State Manager             0.1053
+  Presence Service               0.1007
+  Inventory Service              0.1001
+  Player Profile Service         0.0963
+  Game Server NA                 0.0872
+  Game Server EU                 0.0872
+  Auth Service                   0.0767
+  Epic Account Service           0.0690
+  Game Server BR                 0.0679
+  Game Server AP                 0.0679
+  Replay Service                 0.0676
+  Session Token Store            0.0669
+  Config Service                 0.0667
+  Friends Service                0.0592
+  Item Shop Service              0.0586
+  Lobby Service                  0.0583
+  Cloud Save Service             0.0508
+  Asset Service                  0.0508
+  Moderation Service             0.0507
+  Content Delivery Service       0.0505
+  Creative Mode Server           0.0504
+  Cosmetics Service              0.0502
+  Matchmaking Service            0.0425
+  Chat Service                   0.0410
+  V-Bucks Service                0.0408
+  Achievement Service            0.0405
+  Leaderboard Service            0.0400
+  Tournament Service             0.0334
+  Live Events Service            0.0000
+  Feature Flags                  0.0000
+  OAuth Provider                 0.0000
+  Battle Pass Service            0.0000
+  Game Update Service            0.0000
+  Player Report Service          0.0000

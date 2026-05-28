@@ -1,0 +1,90 @@
+Type,From,To
+Hosted-on,Riot Direct Network,Riot BGP Network
+Hosted-on,Riot Sign On (RSO),AWS Compute NA
+Hosted-on,Champion Select Service,AWS Compute NA
+Hosted-on,Matchmaking Queue NA,AWS Compute NA
+Hosted-on,Matchmaking Queue EU,AWS Compute EU
+Hosted-on,Ranked LP Service,AWS RDS Game DB
+Hosted-on,Game Server NA-1,AWS Compute NA
+Hosted-on,Game Server EU-1,AWS Compute EU
+Hosted-on,Game Server Manager,AWS GameLift Single
+Hosted-on,End of Game Stats Service,AWS RDS Game DB
+Hosted-on,Summoner Profile Service,AWS RDS Player DB
+Hosted-on,Champion Data Service,AWS S3 Assets
+Hosted-on,Champion Data Service,AWS CloudFront
+Hosted-on,Mastery Service,AWS RDS Game DB
+Hosted-on,Hextech Loot Service,AWS Compute NA
+Hosted-on,Store Service,AWS Compute NA
+Hosted-on,Clash Service,AWS Compute NA
+Hosted-on,Chat Service,AWS Compute NA
+Hosted-on,Friends Service,AWS RDS Game DB
+Hosted-on,Presence Service,AWS ElastiCache
+Hosted-on,Global Load Balancer,AWS Route 53
+Hosted-on,Regional Load Balancer NA,AWS NLB NA
+Hosted-on,Regional Load Balancer EU,AWS NLB EU
+Hosted-on,Patch Distribution Service,AWS S3 Assets
+Hosted-on,Patch Distribution Service,AWS CloudFront
+Hosted-on,API Gateway,AWS Compute NA
+Hosted-on,Event Bus,AWS MSK Single
+Hosted-on,Analytics Pipeline,AWS Kinesis Single
+Hosted-on,Analytics Pipeline,AWS S3 Assets
+Hosted-on,Player Telemetry Service,AWS Kinesis Single
+Hosted-on,Anti-Cheat Service,AWS Compute NA
+Hosted-on,Configuration Service,AWS Compute NA
+Hosted-on,DDoS Mitigation Layer,AWS Shield Standard
+Hosted-on,Session Cache,AWS ElastiCache
+Hosted-on,Notification Service,AWS MSK Single
+Hosted-on,Monitoring & Alerting,AWS CloudWatch Standard
+Hosted-on,Secret Management Service,AWS Secrets Manager
+Dependency,LoL Client,DDoS Mitigation Layer
+Dependency,DDoS Mitigation Layer,Riot Direct Network
+Dependency,Riot Direct Network,Global Load Balancer
+Dependency,Riot Sign On (RSO),Summoner Profile Service
+Dependency,Riot Sign On (RSO),Secret Management Service
+Dependency,Matchmaking Queue NA,Champion Select Service
+Dependency,Matchmaking Queue NA,Ranked LP Service
+Dependency,Matchmaking Queue NA,Game Server Manager
+Dependency,Matchmaking Queue EU,Champion Select Service
+Dependency,Matchmaking Queue EU,Ranked LP Service
+Dependency,Matchmaking Queue EU,Game Server Manager
+Dependency,Champion Select Service,Summoner Profile Service
+Dependency,Champion Select Service,Champion Data Service
+Dependency,Game Server Manager,Game Server NA-1
+Dependency,Game Server Manager,Game Server EU-1
+Dependency,Game Server NA-1,End of Game Stats Service
+Dependency,Game Server EU-1,End of Game Stats Service
+Dependency,Game Server NA-1,Anti-Cheat Service
+Dependency,Game Server EU-1,Anti-Cheat Service
+Dependency,Game Server NA-1,Event Bus
+Dependency,Game Server EU-1,Event Bus
+Dependency,End of Game Stats Service,Ranked LP Service
+Dependency,End of Game Stats Service,Mastery Service
+Dependency,End of Game Stats Service,Summoner Profile Service
+Dependency,Global Load Balancer,Regional Load Balancer NA
+Dependency,Global Load Balancer,Regional Load Balancer EU
+Dependency,Regional Load Balancer NA,Matchmaking Queue NA
+Dependency,Regional Load Balancer NA,API Gateway
+Dependency,Regional Load Balancer EU,Matchmaking Queue EU
+Dependency,API Gateway,Riot Sign On (RSO)
+Dependency,API Gateway,Store Service
+Dependency,API Gateway,Summoner Profile Service
+Dependency,API Gateway,Clash Service
+Dependency,Store Service,Hextech Loot Service
+Dependency,Store Service,Summoner Profile Service
+Dependency,Hextech Loot Service,Summoner Profile Service
+Dependency,Clash Service,Matchmaking Queue NA
+Dependency,Clash Service,Summoner Profile Service
+Dependency,Chat Service,Presence Service
+Dependency,Chat Service,Notification Service
+Dependency,Friends Service,Presence Service
+Dependency,Friends Service,Summoner Profile Service
+Dependency,Summoner Profile Service,Ranked LP Service
+Dependency,Summoner Profile Service,Mastery Service
+Dependency,Mastery Service,Champion Data Service
+Dependency,Analytics Pipeline,Event Bus
+Dependency,Player Telemetry Service,Analytics Pipeline
+Dependency,Monitoring & Alerting,Event Bus
+Dependency,Configuration Service,Matchmaking Queue NA
+Dependency,Configuration Service,Matchmaking Queue EU
+Dependency,Configuration Service,Game Server Manager
+Dependency,Presence Service,Session Cache

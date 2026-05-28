@@ -1,0 +1,128 @@
+Type,From,To
+Dependency,DNS Gateway,Riot Direct
+Dependency,DDoS Protection Layer,DNS Gateway
+Dependency,Global Load Balancer,DDoS Protection Layer
+Dependency,API Gateway,Global Load Balancer
+Dependency,Auth Service,Riot Direct
+Dependency,Chat Service,Riot Direct
+Dependency,Vanguard Anti-Cheat Backend,Riot Direct
+Dependency,Network Quality Monitor,Riot Direct
+Dependency,Asset CDN Service,Riot Direct
+Dependency,Riot Account Service,Auth Service
+Dependency,Session Token Service,Auth Service
+Dependency,Matchmaking Service,Auth Service
+Dependency,Game Session Manager,Auth Service
+Dependency,API Gateway,Auth Service
+Dependency,Matchmaking Service,Skill Rating Service
+Dependency,Matchmaking Service,Competitive Rank Service
+Dependency,Matchmaking Service,Player Profile Service
+Dependency,Matchmaking Service,Event Bus
+Dependency,Competitive Rank Service,Skill Rating Service
+Dependency,Game Session Manager,Matchmaking Service
+Dependency,Game Session Manager,Game Server NA
+Dependency,Game Session Manager,Game Server EU
+Dependency,Game Session Manager,Game Server AP
+Dependency,Game Server NA,Anti-Cheat Validation
+Dependency,Game Server EU,Anti-Cheat Validation
+Dependency,Game Server AP,Anti-Cheat Validation
+Dependency,Game Server BR,Anti-Cheat Validation
+Dependency,Game Server KR,Anti-Cheat Validation
+Dependency,Anti-Cheat Validation,Vanguard Anti-Cheat Backend
+Dependency,Player Profile Service,Riot Account Service
+Dependency,Stats Aggregation Service,Player Profile Service
+Dependency,Stats Aggregation Service,Game Session Manager
+Dependency,Leaderboard Service,Stats Aggregation Service
+Dependency,Social Friends Service,Riot Account Service
+Dependency,Party Service,Social Friends Service
+Dependency,Chat Service,Party Service
+Dependency,Notification Service,Chat Service
+Dependency,Notification Service,Event Bus
+Dependency,Store Service,Player Profile Service
+Dependency,Store Service,Inventory Service
+Dependency,Inventory Service,Riot Account Service
+Dependency,Transaction Service,Store Service
+Dependency,Transaction Service,Inventory Service
+Dependency,Transaction Service,Event Bus
+Dependency,Payment Gateway,Transaction Service
+Dependency,Battle Pass Service,Inventory Service
+Dependency,Content Delivery,Asset CDN Service
+Dependency,Telemetry Collector,Game Server NA
+Dependency,Analytics Pipeline,Telemetry Collector
+Dependency,Player Behavior Service,Player Profile Service
+Dependency,Player Report Service,Player Behavior Service
+Dependency,Monitoring Service,Log Aggregation
+Dependency,Monitoring Service,Telemetry Collector
+Dependency,Incident Alert Service,Monitoring Service
+Dependency,Auth Service,Secret Management
+Dependency,Transaction Service,Secret Management
+Dependency,Spectator Service,Game Session Manager
+Dependency,Game State Cache,Game Server NA
+Dependency,Replay Storage Service,Game State Cache
+Dependency,Premier Tournament Service,Matchmaking Service
+Dependency,Premier Tournament Service,Player Profile Service
+Dependency,Network Quality Monitor,Game Server NA
+Dependency,API Gateway,Matchmaking Service
+Dependency,API Gateway,Player Profile Service
+Dependency,API Gateway,Store Service
+Dependency,API Gateway,Social Friends Service
+Dependency,API Gateway,Notification Service
+Hosted-on,Riot Direct,Riot Direct BGP Provider
+Hosted-on,DNS Gateway,AWS Route 53
+Hosted-on,DDoS Protection Layer,AWS Shield Standard
+Hosted-on,API Gateway,AWS Application Load Balancer
+Hosted-on,API Gateway,AWS WAF
+Hosted-on,Auth Service,AWS Compute US-East
+Hosted-on,Riot Account Service,AWS Compute US-East
+Hosted-on,Riot Account Service,AWS DynamoDB
+Hosted-on,Session Token Service,AWS ElastiCache Single Node
+Hosted-on,Matchmaking Service,AWS Compute US-East
+Hosted-on,Matchmaking Service,AWS ElastiCache Single Node
+Hosted-on,Skill Rating Service,AWS Compute US-East
+Hosted-on,Competitive Rank Service,AWS Compute US-East
+Hosted-on,Game Session Manager,AWS Compute US-East
+Hosted-on,Game Server NA,NA Colocation
+Hosted-on,Game Server EU,EU Colocation
+Hosted-on,Game Server AP,AP Colocation
+Hosted-on,Game Server BR,NA Colocation
+Hosted-on,Game Server KR,AP Colocation
+Hosted-on,Vanguard Anti-Cheat Backend,AWS Compute US-East
+Hosted-on,Anti-Cheat Validation,AWS Compute US-East
+Hosted-on,Player Profile Service,AWS Compute US-East
+Hosted-on,Player Profile Service,AWS DynamoDB
+Hosted-on,Stats Aggregation Service,AWS Aurora Single Region
+Hosted-on,Stats Aggregation Service,AWS Compute US-East
+Hosted-on,Leaderboard Service,AWS ElastiCache Single Node
+Hosted-on,Leaderboard Service,AWS Compute US-East
+Hosted-on,Social Friends Service,AWS Compute US-East
+Hosted-on,Social Friends Service,AWS DynamoDB
+Hosted-on,Party Service,AWS Compute US-East
+Hosted-on,Chat Service,AWS Compute US-East
+Hosted-on,Voice Chat Service,NA Colocation
+Hosted-on,Notification Service,AWS Compute US-East
+Hosted-on,Store Service,AWS Compute US-East
+Hosted-on,Store Service,AWS Aurora Single Region
+Hosted-on,Inventory Service,AWS DynamoDB
+Hosted-on,Inventory Service,AWS Compute US-East
+Hosted-on,Transaction Service,AWS Compute US-East
+Hosted-on,Transaction Service,AWS Aurora Single Region
+Hosted-on,Payment Gateway,AWS Compute US-East
+Hosted-on,Battle Pass Service,AWS Compute US-East
+Hosted-on,Content Delivery,AWS CloudFront
+Hosted-on,Asset CDN Service,AWS S3 Storage
+Hosted-on,Asset CDN Service,AWS CloudFront
+Hosted-on,Telemetry Collector,AWS Kinesis Stream
+Hosted-on,Analytics Pipeline,AWS Compute US-East
+Hosted-on,Event Bus,AWS EventBridge
+Hosted-on,Game State Cache,AWS ElastiCache Single Node
+Hosted-on,Replay Storage Service,AWS S3 Storage
+Hosted-on,Spectator Service,AWS Compute US-East
+Hosted-on,Config Service,AWS Compute US-East
+Hosted-on,Feature Flags,AWS Compute US-East
+Hosted-on,Secret Management,AWS Secrets Manager
+Hosted-on,Log Aggregation,AWS CloudWatch
+Hosted-on,Monitoring Service,Datadog Pro
+Hosted-on,Incident Alert Service,PagerDuty
+Hosted-on,Player Behavior Service,AWS Compute US-East
+Hosted-on,Player Report Service,AWS Compute US-East
+Hosted-on,Premier Tournament Service,AWS Compute US-East
+Hosted-on,Network Quality Monitor,AWS Compute US-East

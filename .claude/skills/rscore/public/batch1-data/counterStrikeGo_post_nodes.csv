@@ -1,0 +1,71 @@
+Node,Type,Provider,Service Tier
+DNS,Functional,,
+DDoS Protection,Functional,,
+Load Balancer,Functional,,
+API Gateway,Functional,,
+Steam Auth Service,Functional,,
+Steam Account Service,Functional,,
+Session Manager,Functional,,
+Player Profile Service,Functional,,
+Inventory Service,Functional,,
+Game Coordinator,Functional,,
+Game Server NA,Functional,,
+Game Server EU,Functional,,
+Game Server AP,Functional,,
+Game Server SA,Functional,,
+Matchmaking Service,Functional,,
+Party Service,Functional,,
+Friends Service,Functional,,
+Game State Service,Functional,,
+Match History Service,Functional,,
+Premier Rank Service,Functional,,
+VAC Service,Functional,,
+Overwatch Service,Functional,,
+Workshop Service,Functional,,
+Steam Market Service,Functional,,
+Item Trading Service,Functional,,
+Store Service,Functional,,
+Payment Gateway,Functional,,
+Notification Service,Functional,,
+Chat Service,Functional,,
+Voice Chat Service,Functional,,
+Event Bus,Functional,,
+Analytics Pipeline,Functional,,
+Telemetry Collector,Functional,,
+Monitoring Service,Functional,,
+Incident Alert Service,Functional,,
+CDN Network,Functional,,
+Content Delivery Service,Functional,,
+Patch Distribution Service,Functional,,
+Config Service,Functional,,
+Service Discovery,Functional,,
+Community Server Hub,Functional,,
+Map Service,Functional,,
+Match Replay Service,Functional,,
+Leaderboard Service,Functional,,
+Player Stats Service,Functional,,
+Asset Store Service,Functional,,
+Skin Inspect Service,Functional,,
+Operation Pass Service,Functional,,
+Trust Factor Service,Functional,,
+Report Service,Functional,,
+Valve Servers,Provider,Private Network,Co-location (multi-DC)
+Steam SDR,Provider,Private Network,Private BGP (multi-PoP)
+Akamai,Provider,Akamai,CDN
+AWS Compute,Provider,AWS Compute,ECS/EKS (Fargate multi-AZ)
+Azure Player DB,Provider,Azure,Cosmos DB (multi-region writes)
+AWS Stats DB,Provider,AWS Database,Aurora Global Database
+AWS Cache,Provider,AWS Database,ElastiCache (cluster mode)
+Cloudflare Edge,Provider,Cloudflare,Enterprise
+AWS DDoS Shield,Provider,AWS Security,Shield Advanced
+AWS CDN,Provider,AWS Networking & Edge,CloudFront CDN
+AWS Accelerator,Provider,AWS Networking & Edge,AWS Global Accelerator
+AWS Load Balancer,Provider,AWS Networking & Edge,Application Load Balancer
+AWS DNS,Provider,AWS Networking & Edge,Route 53 (Standard)
+AWS Event Bus,Provider,AWS Messaging & Queuing,EventBridge
+AWS WAF,Provider,AWS Security,WAF (Managed Rules)
+AWS Object Storage,Provider,AWS Storage,S3 Standard
+AWS Metrics,Provider,AWS Observability,CloudWatch (Container Insights)
+Datadog APM,Provider,Datadog,Enterprise
+PagerDuty Alerts,Provider,PagerDuty,Incident Management
+Stripe Payments,Provider,Stripe,Payment Processing

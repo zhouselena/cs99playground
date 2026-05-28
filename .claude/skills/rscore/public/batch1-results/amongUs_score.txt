@@ -1,0 +1,154 @@
+=== amongUs PRE ===
+=== Infrastructure Resilience Score: 0.5962 ===
+  Articulation Points Ratio      0.7188
+  Average Clustering Coefficient 0.0773
+  Average Tech Score             0.9189
+  Bounded Fielder Value          0.0095
+  Degree Entropy                 0.6225
+  Overall Betweenness Centrality 0.9828
+Recommendation: placeholder for recommendation
+
+=== Node Criticality Scores ===
+  AWS Compute Backend            0.5280
+  AWS Lambda                     0.5164
+  Secret Management Service      0.4004
+  Telemetry Collector            0.3842
+  DDoS Protection                0.3816
+  Game Server NA                 0.3727
+  DNS Service                    0.3673
+  Game Server AS                 0.3670
+  Game Server EU                 0.3670
+  Log Aggregation                0.3523
+  Monitoring Service             0.3513
+  CDN Edge                       0.3512
+  Store Service                  0.3510
+  Load Balancer                  0.3504
+  Lobby Manager                  0.3484
+  Incident Alert Service         0.3000
+  API Gateway                    0.3000
+  Payment Gateway                0.3000
+  AWS ElastiCache                0.2475
+  AWS DynamoDB                   0.1967
+  AWS RDS Single-AZ              0.1900
+  AWS CloudWatch                 0.1753
+  AWS SQS                        0.1663
+  AWS Shield Standard            0.1600
+  AWS CloudFront                 0.1558
+  AWS S3                         0.1558
+  GameLift Fleet AS              0.1420
+  GameLift Fleet EU              0.1420
+  GameLift Fleet NA              0.1420
+  AWS WAF                        0.1375
+  AWS ALB                        0.1300
+  PagerDuty                      0.1300
+  AWS Secrets Manager            0.1300
+  AWS Route 53                   0.1270
+  Stripe Payments                0.1180
+  Player Profile Service         0.1013
+  Account Service                0.1007
+  Event Bus                      0.1003
+  Anti-Cheat Service             0.0671
+  Task Assignment Service        0.0670
+  Vote System Service            0.0670
+  Session Token Store            0.0669
+  Lobby Code Service             0.0668
+  Config Service                 0.0668
+  DLC Service                    0.0667
+  Game State Manager             0.0623
+  Auth Service                   0.0580
+  Role Assignment Service        0.0511
+  Asset Service                  0.0510
+  Session Persistence            0.0509
+  Content Delivery Service       0.0506
+  Cosmetics Service              0.0503
+  Inventory Service              0.0501
+  Achievement Service            0.0500
+  Matchmaking Service            0.0301
+  Friends Service                0.0000
+  Notification Service           0.0000
+  Map Selector Service           0.0000
+  Game Update Service            0.0000
+  Chat Service                   0.0000
+  Analytics Service              0.0000
+  Moderation Service             0.0000
+  Player Report Service          0.0000
+  Feature Flags                  0.0000
+
+=== amongUs POST ===
+=== Infrastructure Resilience Score: 0.6039 ===
+  Articulation Points Ratio      0.7463
+  Average Clustering Coefficient 0.0663
+  Average Tech Score             0.9324
+  Bounded Fielder Value          0.0094
+  Degree Entropy                 0.6329
+  Overall Betweenness Centrality 0.9795
+Recommendation: placeholder for recommendation
+
+=== Node Criticality Scores ===
+  Event Bus                      0.4203
+  Secret Management Service      0.4003
+  DDoS Protection                0.3815
+  Game Server NA                 0.3696
+  Game Server AS                 0.3696
+  Game Server EU                 0.3696
+  DNS Service                    0.3672
+  Telemetry Collector            0.3626
+  Log Aggregation                0.3531
+  Monitoring Service             0.3517
+  CDN Edge                       0.3511
+  Store Service                  0.3509
+  Load Balancer                  0.3504
+  Payment Gateway                0.3000
+  Incident Alert Service         0.3000
+  Notification Service           0.3000
+  API Gateway                    0.3000
+  AWS Compute Backend            0.2235
+  AWS Lambda                     0.2164
+  AWS ElastiCache Cluster        0.1950
+  AWS DynamoDB Global            0.1772
+  AWS S3                         0.1558
+  AWS CloudFront                 0.1558
+  AWS RDS Multi-AZ               0.1525
+  AWS CloudWatch                 0.1420
+  AWS WAF                        0.1375
+  Datadog Pro                    0.1375
+  AWS SNS                        0.1330
+  AWS SQS                        0.1330
+  AWS EventBridge                0.1300
+  AWS Secrets Manager            0.1300
+  PagerDuty                      0.1300
+  AWS ALB                        0.1300
+  GameLift Fleet AS              0.1270
+  GameLift Fleet NA              0.1270
+  GameLift Fleet EU              0.1270
+  AWS Route 53                   0.1270
+  Anti-Cheat Service             0.1206
+  AWS Shield Advanced            0.1195
+  Stripe Payments                0.1180
+  Player Profile Service         0.1130
+  Account Service                0.1010
+  Inventory Service              0.1002
+  Game State Manager             0.0872
+  Chat Service                   0.0821
+  Vote System Service            0.0669
+  Map Selector Service           0.0669
+  Session Token Store            0.0669
+  Task Assignment Service        0.0669
+  Lobby Code Service             0.0669
+  Config Service                 0.0667
+  Auth Service                   0.0580
+  Session Persistence            0.0511
+  Asset Service                  0.0509
+  Role Assignment Service        0.0508
+  Content Delivery Service       0.0506
+  Moderation Service             0.0504
+  DLC Service                    0.0501
+  Cosmetics Service              0.0501
+  Lobby Manager                  0.0497
+  Achievement Service            0.0406
+  Matchmaking Service            0.0294
+  Friends Service                0.0000
+  Player Report Service          0.0000
+  Feature Flags                  0.0000
+  Analytics Service              0.0000
+  Game Update Service            0.0000

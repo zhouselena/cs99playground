@@ -1,0 +1,72 @@
+Node,Type,Provider,Service Tier
+Riot Direct,Functional,,
+DNS Gateway,Functional,,
+DDoS Protection Layer,Functional,,
+API Gateway,Functional,,
+Global Load Balancer,Functional,,
+Auth Service,Functional,,
+Riot Account Service,Functional,,
+Session Token Service,Functional,,
+Matchmaking Service,Functional,,
+Skill Rating Service,Functional,,
+Competitive Rank Service,Functional,,
+Game Session Manager,Functional,,
+Game Server NA,Functional,,
+Game Server EU,Functional,,
+Game Server AP,Functional,,
+Game Server BR,Functional,,
+Game Server KR,Functional,,
+Vanguard Anti-Cheat Backend,Functional,,
+Anti-Cheat Validation,Functional,,
+Player Profile Service,Functional,,
+Stats Aggregation Service,Functional,,
+Leaderboard Service,Functional,,
+Social Friends Service,Functional,,
+Party Service,Functional,,
+Chat Service,Functional,,
+Voice Chat Service,Functional,,
+Notification Service,Functional,,
+Store Service,Functional,,
+Inventory Service,Functional,,
+Transaction Service,Functional,,
+Payment Gateway,Functional,,
+Battle Pass Service,Functional,,
+Content Delivery,Functional,,
+Asset CDN Service,Functional,,
+Telemetry Collector,Functional,,
+Analytics Pipeline,Functional,,
+Event Bus,Functional,,
+Game State Cache,Functional,,
+Replay Storage Service,Functional,,
+Spectator Service,Functional,,
+Config Service,Functional,,
+Feature Flags,Functional,,
+Secret Management,Functional,,
+Log Aggregation,Functional,,
+Monitoring Service,Functional,,
+Incident Alert Service,Functional,,
+Player Behavior Service,Functional,,
+Player Report Service,Functional,,
+Premier Tournament Service,Functional,,
+Network Quality Monitor,Functional,,
+Riot Direct BGP Provider,Provider,Riot Network,Riot Direct BGP
+NA Colocation,Provider,Private Network,Co-location (multi-DC)
+EU Colocation,Provider,Private Network,Co-location (multi-DC)
+AP Colocation,Provider,Private Network,Co-location (multi-DC)
+AWS Compute US-East,Provider,AWS Compute,EC2 Auto Scaling Group (multi-AZ)
+AWS DynamoDB,Provider,AWS Database,DynamoDB (On-Demand)
+AWS Aurora Single Region,Provider,AWS Database,Aurora (Provisioned single region)
+AWS ElastiCache Single Node,Provider,AWS Database,ElastiCache (single node)
+AWS S3 Storage,Provider,AWS Storage,S3 Standard
+AWS CloudFront,Provider,AWS Networking & Edge,CloudFront CDN
+AWS Route 53,Provider,AWS Networking & Edge,Route 53 (Standard)
+AWS Application Load Balancer,Provider,AWS Networking & Edge,Application Load Balancer
+AWS EventBridge,Provider,AWS Messaging & Queuing,EventBridge
+AWS Kinesis Stream,Provider,AWS Messaging & Queuing,Kinesis (multi-shard enhanced fanout)
+Cloudflare Business,Provider,Cloudflare,Business
+AWS Shield Standard,Provider,AWS Security,Shield Standard
+AWS WAF,Provider,AWS Security,WAF (Managed Rules)
+AWS Secrets Manager,Provider,AWS Security,Secrets Manager
+Datadog Pro,Provider,Datadog,Pro
+AWS CloudWatch,Provider,AWS Observability,CloudWatch (Container Insights)
+PagerDuty,Provider,PagerDuty,Incident Management

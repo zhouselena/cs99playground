@@ -1,0 +1,65 @@
+Node,Type,Provider,Service Tier
+DNS Service,Functional,,
+DDoS Protection,Functional,,
+CDN Edge,Functional,,
+Load Balancer,Functional,,
+API Gateway,Functional,,
+Auth Service,Functional,,
+Account Service,Functional,,
+Session Token Store,Functional,,
+Matchmaking Service,Functional,,
+Lobby Manager,Functional,,
+Game Server NA,Functional,,
+Game Server EU,Functional,,
+Game Server AS,Functional,,
+Game State Manager,Functional,,
+Anti-Cheat Service,Functional,,
+Player Profile Service,Functional,,
+Friends Service,Functional,,
+Cosmetics Service,Functional,,
+Store Service,Functional,,
+Payment Gateway,Functional,,
+Inventory Service,Functional,,
+DLC Service,Functional,,
+Chat Service,Functional,,
+Notification Service,Functional,,
+Content Delivery Service,Functional,,
+Asset Service,Functional,,
+Game Update Service,Functional,,
+Telemetry Collector,Functional,,
+Analytics Service,Functional,,
+Event Bus,Functional,,
+Config Service,Functional,,
+Feature Flags,Functional,,
+Log Aggregation,Functional,,
+Monitoring Service,Functional,,
+Incident Alert Service,Functional,,
+Player Report Service,Functional,,
+Moderation Service,Functional,,
+Lobby Code Service,Functional,,
+Role Assignment Service,Functional,,
+Task Assignment Service,Functional,,
+Vote System Service,Functional,,
+Session Persistence,Functional,,
+Map Selector Service,Functional,,
+Achievement Service,Functional,,
+Secret Management Service,Functional,,
+AWS Route 53,Provider,AWS Networking & Edge,Route 53 (Standard)
+AWS CloudFront,Provider,AWS Networking & Edge,CloudFront CDN
+AWS ALB,Provider,AWS Networking & Edge,Application Load Balancer
+AWS WAF,Provider,AWS Security,WAF (Managed Rules)
+AWS Shield Standard,Provider,AWS Security,Shield Standard
+AWS Secrets Manager,Provider,AWS Security,Secrets Manager
+AWS Compute Backend,Provider,AWS Compute,EC2 Auto Scaling Group (multi-AZ)
+AWS Lambda,Provider,AWS Compute,AWS Lambda
+GameLift Fleet NA,Provider,Amazon GameLift,GameLift (single region)
+GameLift Fleet EU,Provider,Amazon GameLift,GameLift (single region)
+GameLift Fleet AS,Provider,Amazon GameLift,GameLift (single region)
+AWS DynamoDB,Provider,AWS Database,DynamoDB (On-Demand)
+AWS ElastiCache,Provider,AWS Database,ElastiCache (single node)
+AWS RDS Single-AZ,Provider,AWS Database,RDS Single-AZ (any engine)
+AWS S3,Provider,AWS Storage,S3 Standard
+AWS SQS,Provider,AWS Messaging & Queuing,SQS Standard
+AWS CloudWatch,Provider,AWS Observability,CloudWatch (standard)
+Stripe Payments,Provider,Stripe,Payment Processing
+PagerDuty,Provider,PagerDuty,Incident Management

@@ -1,0 +1,73 @@
+Node,Type,Provider,Service Tier
+DNS Service,Functional,,
+DDoS Protection Layer,Functional,,
+CDN Edge,Functional,,
+Global Load Balancer,Functional,,
+API Gateway,Functional,,
+Auth Service,Functional,,
+Epic Account Service,Functional,,
+Session Token Store,Functional,,
+OAuth Provider,Functional,,
+Matchmaking Service,Functional,,
+Lobby Service,Functional,,
+Game Server NA,Functional,,
+Game Server EU,Functional,,
+Game Server AP,Functional,,
+Game Server BR,Functional,,
+Creative Mode Server,Functional,,
+Game State Manager,Functional,,
+Anti-Cheat Service,Functional,,
+Player Stats Service,Functional,,
+Player Profile Service,Functional,,
+Friends Service,Functional,,
+Presence Service,Functional,,
+Squad Service,Functional,,
+Chat Service,Functional,,
+Voice Chat Service,Functional,,
+Notification Service,Functional,,
+Player Report Service,Functional,,
+Item Shop Service,Functional,,
+V-Bucks Service,Functional,,
+Payment Gateway,Functional,,
+Battle Pass Service,Functional,,
+Inventory Service,Functional,,
+Cosmetics Service,Functional,,
+Achievement Service,Functional,,
+Cloud Save Service,Functional,,
+Live Events Service,Functional,,
+Content Delivery Service,Functional,,
+Asset Service,Functional,,
+Game Update Service,Functional,,
+Tournament Service,Functional,,
+Leaderboard Service,Functional,,
+Moderation Service,Functional,,
+Replay Service,Functional,,
+Telemetry Collector,Functional,,
+Analytics Pipeline,Functional,,
+Event Bus,Functional,,
+Log Aggregation,Functional,,
+Monitoring Service,Functional,,
+Incident Alert Service,Functional,,
+Config Service,Functional,,
+Feature Flags,Functional,,
+Secret Management,Functional,,
+AWS Route 53,Provider,AWS Networking & Edge,Route 53 (Standard)
+AWS CloudFront,Provider,AWS Networking & Edge,CloudFront CDN
+AWS ALB,Provider,AWS Networking & Edge,Application Load Balancer
+AWS WAF,Provider,AWS Security,WAF (Managed Rules)
+AWS Shield Standard,Provider,AWS Security,Shield Standard
+AWS Secrets Manager,Provider,AWS Security,Secrets Manager
+AWS Compute Services,Provider,AWS Compute,ECS/EKS (EC2-backed multi-AZ)
+AWS EC2 Game Fleet,Provider,AWS Compute,EC2 Auto Scaling Group (multi-AZ)
+AWS DynamoDB,Provider,AWS Database,DynamoDB (On-Demand)
+AWS Aurora Single Region,Provider,AWS Database,Aurora (Provisioned single region)
+AWS ElastiCache Single Node,Provider,AWS Database,ElastiCache (single node)
+AWS MemoryDB Single Region,Provider,AWS Database,MemoryDB for Redis (single region)
+AWS S3 Storage,Provider,AWS Storage,S3 Standard
+AWS Kinesis Stream,Provider,AWS Messaging & Queuing,Kinesis (multi-shard enhanced fanout)
+AWS EventBridge,Provider,AWS Messaging & Queuing,EventBridge
+AWS SQS,Provider,AWS Messaging & Queuing,SQS Standard
+AWS CloudWatch,Provider,AWS Observability,CloudWatch (standard)
+Datadog Pro,Provider,Datadog,Pro
+PagerDuty,Provider,PagerDuty,Incident Management
+Stripe Payments,Provider,Stripe,Payment Processing
